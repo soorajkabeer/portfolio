@@ -10,6 +10,14 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        theme: {
+          white: "#f1f1f1",
+          black: "#1d1d1d" /*1d1d1d*/,
+          yellow: "#fff200",
+        },
+      },
+      fontFamily: {
+        primary: ['"Bebas Neue"', "sans-serif"],
       },
     },
   },

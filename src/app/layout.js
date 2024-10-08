@@ -1,5 +1,8 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import Link from "next/link";
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -23,37 +26,10 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="w-full h-screen bg-red-800">
-          <header>
-            <nav>
-              <p></p>
-              <ul>
-                <li>
-                  <a href="/">Home</a>
-                </li>
-                <li>
-                  <a href="/about">About</a>
-                </li>
-                <li>
-                  <a href="/work">Work</a>
-                </li>
-                <li>
-                  <a href="/contact">Contact</a>
-                </li>
-              </ul>
-            </nav>
-          </header>
+        <div className="w-full min-h-screen bg-theme-white">
+          <NavBar />
           {children}
-          <footer>
-            <p>© 2024 SOORAJ KABEER</p>
-            <ul>
-              <li>icon</li>
-              <li>icon</li>
-              <li>icon</li>
-              <li>icon</li>
-              <li>icon</li>
-            </ul>
-          </footer>
+          <Footer />
         </div>
       </body>
     </html>
