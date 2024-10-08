@@ -18,6 +18,7 @@ module.exports = {
       },
       fontFamily: {
         primary: ['"Bebas Neue"', "sans-serif"],
+        body: ['"Red Hat Display"', "sans-serif"],
       },
     },
   },

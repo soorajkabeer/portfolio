@@ -1,6 +1,19 @@
-// import { motion } from "framer-motion";
+"use client";
+import * as motion from "framer-motion/client";
+import React, { useState } from "react";
 
 export default function LineFace() {
+  const [load, setLoad] = useState(0);
+  setTimeout(() => {
+    setLoad(1);
+    if (typeof window !== "undefined") {
+      window.sessionStorage.setItem("lineImageLoaded", true);
+    }
+  }, 1000);
+  let isLoaded =
+    typeof window !== "undefined"
+      ? window.sessionStorage.getItem("lineImageLoaded")
+      : false;
   return (
     <div
       className=""
@@ -13,25 +26,25 @@ export default function LineFace() {
         height: "auto",
       }}
     >
-      <svg
+      <motion.svg
         xmlns="http://www.w3.org/2000/svg"
         x="0px"
         y="0px"
         viewBox="0 0 262.9 361.2"
         style={{ width: "100%", height: "100%" }}
       >
-        <path
-          //   initial={{ pathLength: 0, pathOffset: 1 }}
-          //   animate={{ pathLength: 1, pathOffset: 0 }}
-          //   transition={{
-          //     duration: 10,
-          //     ease: "easeInOut",
-          //     // repeat: 1,
-          //     // repeatType: "loop",
-          //     // repeatDelay: 1,
-          //   }}
-          //   strokeWidth={1}
-          //   strokeDasharray="0 1"
+        <motion.path
+          initial={{ pathLength: isLoaded ? 1 : 0, pathOffset: 1 }}
+          animate={{ pathLength: 1, pathOffset: 0 }}
+          transition={{
+            duration: isLoaded ? 0 : 10,
+            ease: "easeInOut",
+            // repeat: 1,
+            // repeatType: "loop",
+            // repeatDelay: 1,
+          }}
+          strokeWidth={1}
+          strokeDasharray="0 1"
           fill="none"
           stroke="#1d1d1d"
           strock-width="1px"
@@ -341,7 +354,7 @@ export default function LineFace() {
 	s-7.9,2.6-9.4,1.4s-1.2-4.4-1.2-4.4c3.3-1.5,9.5-3.2,11.1-1.1c1.5,2.1,0.5,5,0.5,5s-8.6,2.1-10.3,1.7c-1.7-0.5-2.4-5.1-2.4-5.1
 	l13.2,2.4l-0.9,1.6c0,0,2.9-0.8,5.6,0.1c2.7,1,6.9,1.9,6.9,1.9s-15.2,10-32.3,7.6"
         />
-      </svg>
+      </motion.svg>
     </div>
   );
 }
