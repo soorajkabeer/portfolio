@@ -15,42 +15,42 @@ const Footer = () => {
       <p>© 2024 SOORAJ KABEER</p>
       <nav className="flex items-center justify-center w-full max-w-80">
         <Link
-          href="/"
+          href="//www.linkedin.com/in/sooraj-kabeer/"
           target={"_blank"}
           className="px-4 h-full w-full flex justify-center items-center"
         >
           <LinkedinIcon />
         </Link>
         <Link
-          href="/"
+          href="//github.com/soorajkabeer"
           target={"_blank"}
           className="px-4 h-full w-full flex justify-center items-center"
         >
           <GithubIcon />
         </Link>
         <Link
-          href="/"
+          href="//www.facebook.com/sooraj.kabeer"
           target={"_blank"}
           className="px-4 h-full w-full flex justify-center items-center"
         >
           <FacebookIcon />
         </Link>
         <Link
-          href="/"
+          href="//www.instagram.com/soorajkabeer/"
           target={"_blank"}
           className="px-4 h-full w-full flex justify-center items-center"
         >
           <InstagramIcon />
         </Link>
         <Link
-          href="/"
+          href="mailto:name@email.com"
           target={"_blank"}
           className="px-4 h-full w-full flex justify-center items-center"
         >
           <EmailIcon className={"h-4"} />
         </Link>
         <Link
-          href="/"
+          href="//www.behance.net/soorajkabeer"
           target={"_blank"}
           className="px-4 h-full w-full flex justify-center items-center"
         >

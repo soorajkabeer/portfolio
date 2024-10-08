@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import CustomLink from "./CustomLink";
+import CustomNavLink from "./CustomNavLink";
 
 const NavBar = () => {
   return (
@@ -8,10 +8,10 @@ const NavBar = () => {
       <nav className="font-primary flex justify-between items-center py-6 px-11 text-3xl">
         <p>Day/Night Icon</p>
         <nav className="flex">
-          <CustomLink href="/" title="Home" className="ml-10" />
-          <CustomLink className="ml-10" href="/about" title="About" />
-          <CustomLink className="ml-10" href="/work" title="Works" />
-          <CustomLink className="ml-10" href="/contact" title="Contact" />
+          <CustomNavLink href="/" title="Home" className="ml-10" />
+          <CustomNavLink className="ml-10" href="/about" title="About" />
+          <CustomNavLink className="ml-10" href="/work" title="Works" />
+          <CustomNavLink className="ml-10" href="/contact" title="Contact" />
         </nav>
       </nav>
     </header>

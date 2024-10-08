@@ -26,10 +26,14 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="w-full min-h-screen bg-theme-white">
-          <NavBar />
-          {children}
-          <Footer />
+        <div className="w-full min-h-screen bg-theme-white grid grid-cols-1 justify-between">
+          <div className="pattern-wavy pattern-theme-grey  pattern-bg-theme-white pattern-size-4 pattern-opacity-100">
+            <div className="h-full flex flex-col justify-between">
+              <NavBar />
+              {children}
+              <Footer />
+            </div>
+          </div>
         </div>
       </body>
     </html>
