@@ -8,8 +8,8 @@ const CustomNavLink = ({ href, title, className = "" }) => {
     <Link href={href} className={`${className} relative group`}>
       {title}
       <span
-        className={`h-1 inline-block bg-theme-yellow absolute left-0 bottom-0 group-hover:w-full transition-[width] ease duration-300 ${
-          pathName == href ? "w-full" : "w-0"
+        className={`h-1 inline-block  absolute left-0 bottom-0 group-hover:w-full transition-[width] ease duration-300 ${
+          pathName == href ? "w-full bg-theme-green" : "w-0 bg-theme-yellow"
         }`}
       >
         &nbsp;

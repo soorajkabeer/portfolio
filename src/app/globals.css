@@ -5,6 +5,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
 
+@layer components {
+  .page-title {
+    @apply flex justify-start font-primary text-5xl text-left pb-3;
+  }
+  .page-text {
+    @apply flex justify-start font-body text-xl;
+  }
+  .page-link-button {
+    @apply border-2 border-theme-black px-4 py-2 font-primary text-2xl mt-5 mr-5 hover:text-theme-yellow;
+  }
+  .page-big-link {
+    @apply flex justify-start font-primary text-3xl text-left;
+  }
+}
+
 ::selection {
   color: #1d1d1d;
   background: #fff200;
