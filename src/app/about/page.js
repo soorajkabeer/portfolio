@@ -1,11 +1,12 @@
 import React from "react";
 import CustomButton from "../components/CustomButton";
 import CustomLink from "../components/CustomLink";
+import Skills from "../components/Skills";
 
 export default function About() {
   return (
     <div className="items-center justify-items-center p-8 pb-20 sm:p-20 ">
-      <main className="flex justify-center items-center">
+      <main className="flex justify-center items-center flex-col">
         <div className="flex flex-col justify-between gap-4">
           <h1 className="page-title">Creative. Developer. Storyteller</h1>
           <p className="page-text">
@@ -21,7 +22,8 @@ export default function About() {
           </p>
           <p className="page-text">
             Feel free to reach out to me, I'm open for possible collaburations,
-            discussion and knowledge sharing. You can mail me at&nbsp;
+            discussion and knowledge sharing. <br />
+            You can mail me at&nbsp;
             <CustomLink
               href="mailto:soorajkabeer@gmail.com"
               text="soorajkabeer@gmail.com"
@@ -46,6 +48,9 @@ export default function About() {
             />
           </div>
         </div>
+        <section className="w-full">
+          <Skills />
+        </section>
       </main>
     </div>
   );

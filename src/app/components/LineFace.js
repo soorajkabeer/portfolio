@@ -18,7 +18,7 @@ export default function LineFace() {
   const transition = { duration: isLoaded ? 0 : 10, ease: "easeInOut" };
   return (
     <div
-      className=""
+      className="group"
       style={{
         border: "none",
         padding: "0",
@@ -37,8 +37,12 @@ export default function LineFace() {
       >
         <motion.path
           initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          className="fill-transparent dark:fill-theme-yellow"
+          animate={{ opacity: [0, 0, 0.5, 1], scale: ["90%", "100%"] }}
+          whileHover={{
+            fill: ["red", "blue", "green"],
+            transition: { duration: 12 },
+          }}
+          className="fill-transparent transition-[fill] ease-in-out duration-300 "
           transition={{
             duration: isLoaded ? 0 : 10,
             ease: "easeInOut",

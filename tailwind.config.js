@@ -14,8 +14,16 @@ module.exports = {
           white: "#f1f1f1" /*#181818 */,
           black: "#1d1d1d" /*#eaeaea*/,
           dblack: "#0b0b0b",
-          yellow: "#fff200" /*#ffdd00 */,
-          green: "#379777",
+          yellow: {
+            light: "#ffcc00",
+            DEFAULT: "#e6b800",
+            dark: "#c69e00",
+          } /*#ffdd00 */,
+          green: {
+            light: "#52b493",
+            DEFAULT: "#379777",
+            dark: "#1e7457",
+          },
           blue: "#007bff" /*#00b8d9 */,
           grey: "#d3d3d3" /*#303030 */,
         },
@@ -46,6 +54,10 @@ module.exports = {
         24: "6rem",
         32: "8rem",
       },
+    },
+    backgroundImage: {
+      circularLight:
+        "repeating-radial-gradient(rgba(29,29,29,4) 2px, #f1f1f101 5px, #f1f1f101 100px)",
     },
   },
   plugins: [require("tailwindcss-bg-patterns")],

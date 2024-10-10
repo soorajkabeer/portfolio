@@ -1,5 +1,8 @@
 import Image from "next/image";
 import LineFace from "./components/LineFace";
+import Link from "next/link";
+import { LinkArrow } from "./components/Icon";
+import CustomButton from "./components/CustomButton";
 
 export default function Home() {
   return (
@@ -9,23 +12,25 @@ export default function Home() {
           <div>
             <LineFace />
           </div>
-          <div className="flex justify-center flex-col pl-2 group">
+          <div className="flex justify-center flex-col pl-2 ">
             <div className="flex justify-start ">
               <div className="flex flex-col justify-center text-right ">
-                <p className="font-primary text-4xl">HELLO</p>
-                <p className="font-primary text-7xl">I'M</p>
+                <p className="font-primary text-4xl text-theme-black">HELLO</p>
+                <p className="font-primary text-7xl text-theme-black">I'M</p>
               </div>
-              <div className="flex justify-center items-center font-primary text-9xl pl-6 tracking-normal relative">
-                <h1 className="z-10">SOORAJ KABEER</h1>
-                <span className="h-3 inline-block bg-theme-yellow absolute left-4 bottom-3 group-hover:w-full group-hover:h-full transition-[width,height] ease duration-300 w-0">
+              <div className="flex justify-center items-center font-primary text-9xl pl-6 tracking-normal relative group">
+                <h1 className="z-10 bg-gradient-to-bl from-theme-green to-theme-green-light bg-clip-text text-transparent">
+                  SOORAJ KABEER
+                </h1>
+                <span className="h-5 inline-block bg-theme-yellow absolute left-4 bottom-3 group-hover:w-full  transition-[width,height] ease duration-300 w-0">
                   &nbsp;
                 </span>
               </div>
             </div>
-            <div className="flex justify-start font-primary text-3xl text-left pt-1 pb-3 pl-2">
+            <div className="flex justify-start font-primary text-3xl text-left pt-1 pb-3 pl-2 text-theme-black">
               Front-End Developer | Full-Stack Shopify Expert | Creative Thinker
             </div>
-            <div className="flex justify-between font-body text-xl">
+            <div className="flex justify-between font-body text-xl text-theme-black">
               <p>
                 I create seamless digital experiences by combining design and
                 development.
@@ -33,6 +38,26 @@ export default function Home() {
                 front-end technologies like React, I build solutions that focus
                 on simplicity and impact.
               </p>
+            </div>
+            <div className="flex items-center self-start mt-2">
+              <Link
+                href="/download/sooraj_kabeer_resume.pdf"
+                className={"page-link-button relative group"}
+                title="Download My Resume"
+              >
+                <span className="flex inline-block z-10 relative">
+                  Resume <LinkArrow className={"w-6 ml-2 items-center c"} />
+                </span>
+                <span className="h-full bg-blend-multiply inline-block bg-theme-black absolute left-0 bottom-0 z-0 group-hover:w-full transition-[width] ease duration-300 w-0 pointer-events-none">
+                  &nbsp;
+                </span>
+              </Link>
+              <CustomButton
+                href="mailto:soorajkabeer@gmail.com"
+                target={"_blank"}
+                text="Hire Me"
+                className="page-link-button"
+              />
             </div>
           </div>
         </div>

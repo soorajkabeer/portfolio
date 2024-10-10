@@ -41,6 +41,7 @@ export default function Contact() {
           <SocialIcons
             className="grid gap-4 grid-cols-6 items-center justify-center w-full max-w-96 mt-5"
             background="bg-theme-green"
+            iconClassName="fill-theme-white"
           />
         </div>
       </main>

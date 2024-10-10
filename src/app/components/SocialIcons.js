@@ -12,6 +12,7 @@ import {
 const SocialIcons = ({
   border = false,
   className = "",
+  iconClassName = "fill-black",
   background = "bg-transparent",
 }) => {
   return (
@@ -19,56 +20,62 @@ const SocialIcons = ({
       <Link
         href="//www.linkedin.com/in/sooraj-kabeer/"
         target={"_blank"}
+        title="LinkedIn"
         className={`p-2 h-full w-full flex justify-center items-center ${
           border ? "border-theme-black border-2" : ""
         } ${background}`}
       >
-        <LinkedinIcon />
+        <LinkedinIcon className={iconClassName} />
       </Link>
       <Link
         href="//github.com/soorajkabeer"
         target={"_blank"}
+        title="Github"
         className={`p-2 h-full w-full flex justify-center items-center ${
           border ? "border-theme-black border-2" : ""
         } ${background}`}
       >
-        <GithubIcon />
+        <GithubIcon className={iconClassName} />
       </Link>
       <Link
         href="//www.facebook.com/sooraj.kabeer"
         target={"_blank"}
+        title="Facebook"
         className={`p-2 h-full w-full flex justify-center items-center ${
           border ? "border-theme-black border-2" : ""
         } ${background}`}
       >
-        <FacebookIcon />
+        <FacebookIcon className={iconClassName} />
       </Link>
       <Link
         href="//www.instagram.com/soorajkabeer/"
         target={"_blank"}
+        title="Instagram"
         className={`p-2 h-full w-full flex justify-center items-center ${
           border ? "border-theme-black border-2" : ""
         } ${background}`}
       >
-        <InstagramIcon />
+        <InstagramIcon className={iconClassName} />
       </Link>
       <Link
         href="mailto:name@email.com"
         target={"_blank"}
+        title="Email Me"
         className={`p-2 h-full w-full flex justify-center items-center ${
           border ? "border-theme-black border-2" : ""
         } ${background}`}
       >
-        <EmailIcon className={"h-4"} />
+        <EmailIcon className={`h-4 ${iconClassName}`} />
       </Link>
       <Link
         href="//www.behance.net/soorajkabeer"
         target={"_blank"}
+        title="Behance"
         className={`p-2 h-full w-full flex justify-center items-center ${
           border ? "border-theme-black border-2" : ""
         } ${background}`}
       >
-        <BehanceIcon />
+        <BehanceIcon className={iconClassName} />
       </Link>
     </nav>
   );
