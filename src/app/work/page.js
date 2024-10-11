@@ -1,4 +1,5 @@
 import React from "react";
+import Experience from "../components/Experience";
 
 export default function Work() {
   return (
@@ -15,7 +16,7 @@ export default function Work() {
             teams, always with a focus on user satisfaction and operational
             efficiency. Key highlights from my experience include:
           </p>
-          <p className="page-text">
+          <div className="page-text">
             <ul>
               <li>
                 Leading the development team for Turmerry.com, overseeing daily
@@ -30,7 +31,8 @@ export default function Work() {
                 apps for a range of clients.
               </li>
             </ul>
-          </p>
+          </div>
+          <Experience />
         </div>
       </main>
     </div>

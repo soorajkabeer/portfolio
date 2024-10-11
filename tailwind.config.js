@@ -32,6 +32,10 @@ module.exports = {
         primary: ['"Bebas Neue"', "sans-serif"],
         body: ['"Red Hat Display"', "sans-serif"],
       },
+      backgroundImage: {
+        circularLight:
+          "repeating-radial-gradient(rgba(29,29,29,4) 2px, #f1f1f101 5px, #f1f1f101 100px)",
+      },
     },
     patterns: {
       opacities: {
@@ -54,10 +58,6 @@ module.exports = {
         24: "6rem",
         32: "8rem",
       },
-    },
-    backgroundImage: {
-      circularLight:
-        "repeating-radial-gradient(rgba(29,29,29,4) 2px, #f1f1f101 5px, #f1f1f101 100px)",
     },
   },
   plugins: [require("tailwindcss-bg-patterns")],
