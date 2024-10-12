@@ -37,14 +37,10 @@ export default function LineFace() {
       >
         <motion.path
           initial={{ opacity: 0 }}
-          animate={{ opacity: [0, 0, 0.5, 1], scale: ["90%", "100%"] }}
-          whileHover={{
-            fill: ["red", "blue", "green"],
-            transition: { duration: 12 },
-          }}
-          className="fill-transparent transition-[fill] ease-in-out duration-300 "
+          animate={{ opacity: [0, 0.4, 0.5, 1], scale: ["90%", "100%"] }}
+          className="fill-transparent dark:fill-theme-yellow transition-[fill] ease-in-out duration-300 "
           transition={{
-            duration: isLoaded ? 0 : 10,
+            duration: isLoaded ? 0 : 5,
             ease: "easeInOut",
             // repeat: 1,
             // repeatType: "loop",
@@ -75,7 +71,7 @@ export default function LineFace() {
           strokeWidth={1}
           strokeDasharray="0 1"
           fill="none"
-          stroke="#1d1d1d"
+          className="stroke-theme-black"
           strock-width="1px"
           d="M230.3,119.6c1-0.2,10.3-2.2,11.7-5.8c1.4-3.6-17.5-16.5-18.9-17.7c-1.4-1.2,6-11,5.3-17.3
 	c-0.7-6.2,2.9-30.7-18.7-44.3s-37.2-20.4-50.6-21.6c-13.4-1.2-29-6.2-38.8-3.6s-15.8,3.1-30,13.9C80.7,30.6,67,41.9,56.7,51.7

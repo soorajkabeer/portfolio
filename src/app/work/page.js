@@ -5,7 +5,7 @@ export default function Work() {
   return (
     <div className="items-center justify-items-center p-8 pb-20 sm:p-20 ">
       <main className="flex justify-center items-center">
-        <div className="flex flex-col justify-between gap-4">
+        <div className="flex flex-col justify-between gap-4 text-theme-black dark:text-theme-white">
           <h1 className="page-title">
             A journey of adapting, learning, and creating.
           </h1>

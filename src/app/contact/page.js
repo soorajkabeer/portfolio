@@ -7,34 +7,27 @@ export default function Contact() {
   return (
     <div className="items-center justify-items-center p-8 pb-20 sm:p-20 ">
       <main className="flex justify-center items-center">
-        <div className="flex flex-col justify-between gap-4">
+        <div className="flex flex-col justify-between gap-4 text-theme-black dark:text-theme-white">
           <h1 className="page-title">Let’s build something extraordinary.</h1>
           <p className="page-text">
             I’m always open to discussing new opportunities, collaborations, or
             just sharing ideas. Whether you need a full-scale web solution or
             want to explore creative concepts, I’d love to hear from you!
           </p>
-          <p className="page-big-link relative max-w-fit">
-            <CustomLink
-              href="mailto:soorajkabeer@gmail.com"
-              title="soorajkabeer@gmail.com"
-              className="inline-block z-10 relative"
-              hovercolor="bg-theme-green"
-            />
-            <span className="bg-blend-multiply inline-block absolute h-3 w-full left-0 bottom-2 bg-theme-yellow pointer-events-none z-0"></span>
-          </p>
           <CustomHighlightLink
             href="mailto:soorajkabeer@gmail.com"
             text="soorajkabeer@gmail.com"
-            className="page-big-link"
+            className="page-big-link dark:text-theme-yellow-light"
             underlineColor="bg-theme-green"
+            hoverEffectColor="dark:bg-theme-darkblack"
             position="bottom-3 left-0"
           />
           <CustomHighlightLink
             href="mailto:soorajkabeer.fl@gmail.com"
             text="soorajkabeer.fl@gmail.com"
-            className="page-big-link"
+            className="page-big-link dark:text-theme-yellow-light"
             underlineColor="bg-theme-green"
+            hoverEffectColor="dark:bg-theme-darkblack"
             position="bottom-3 left-0"
             aftertext=" (Freelance Enquires)"
           />

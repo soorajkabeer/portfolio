@@ -5,6 +5,7 @@ const CustomHighlightLink = ({
   href,
   text,
   className = "",
+  target = "_self",
   underlineColor = "bg-theme-yellow",
   hoverEffectColor = "bg-theme-yellow",
   position = "left-0 bottom-0",
@@ -18,6 +19,7 @@ const CustomHighlightLink = ({
         href={href}
         className="inline-block z-10 relative group"
         title={text}
+        target={target}
       >
         <span className="inline-block z-10 relative ">{text}</span>
         <span

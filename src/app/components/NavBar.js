@@ -5,7 +5,7 @@ import CustomNavLink from "./CustomNavLink";
 const NavBar = () => {
   return (
     <header>
-      <nav className="font-primary flex justify-between items-center py-6 px-11 text-3xl">
+      <nav className="font-primary flex justify-between items-center py-6 px-11 text-3xl text-theme-black dark:text-theme-white">
         <p>Day/Night Icon</p>
         <nav className="flex">
           <CustomNavLink href="/" title="Home" className="ml-10" />

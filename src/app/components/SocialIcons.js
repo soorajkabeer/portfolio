@@ -22,7 +22,7 @@ const SocialIcons = ({
         target={"_blank"}
         title="LinkedIn"
         className={`p-2 h-full w-full flex justify-center items-center ${
-          border ? "border-theme-black border-2" : ""
+          border ? "border-theme-black dark:border-theme-white border-2" : ""
         } ${background}`}
       >
         <LinkedinIcon className={iconClassName} />
@@ -32,7 +32,7 @@ const SocialIcons = ({
         target={"_blank"}
         title="Github"
         className={`p-2 h-full w-full flex justify-center items-center ${
-          border ? "border-theme-black border-2" : ""
+          border ? "border-theme-black dark:border-theme-white border-2" : ""
         } ${background}`}
       >
         <GithubIcon className={iconClassName} />
@@ -42,7 +42,7 @@ const SocialIcons = ({
         target={"_blank"}
         title="Facebook"
         className={`p-2 h-full w-full flex justify-center items-center ${
-          border ? "border-theme-black border-2" : ""
+          border ? "border-theme-black dark:border-theme-white border-2" : ""
         } ${background}`}
       >
         <FacebookIcon className={iconClassName} />
@@ -52,7 +52,7 @@ const SocialIcons = ({
         target={"_blank"}
         title="Instagram"
         className={`p-2 h-full w-full flex justify-center items-center ${
-          border ? "border-theme-black border-2" : ""
+          border ? "border-theme-black dark:border-theme-white border-2" : ""
         } ${background}`}
       >
         <InstagramIcon className={iconClassName} />
@@ -62,7 +62,7 @@ const SocialIcons = ({
         target={"_blank"}
         title="Email Me"
         className={`p-2 h-full w-full flex justify-center items-center ${
-          border ? "border-theme-black border-2" : ""
+          border ? "border-theme-black dark:border-theme-white border-2" : ""
         } ${background}`}
       >
         <EmailIcon className={`h-4 ${iconClassName}`} />
@@ -72,7 +72,7 @@ const SocialIcons = ({
         target={"_blank"}
         title="Behance"
         className={`p-2 h-full w-full flex justify-center items-center ${
-          border ? "border-theme-black border-2" : ""
+          border ? "border-theme-black dark:border-theme-white border-2" : ""
         } ${background}`}
       >
         <BehanceIcon className={iconClassName} />

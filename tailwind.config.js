@@ -13,7 +13,7 @@ module.exports = {
         theme: {
           white: "#f1f1f1" /*#181818 */,
           black: "#1d1d1d" /*#eaeaea*/,
-          dblack: "#0b0b0b",
+          darkblack: "#131313",
           yellow: {
             light: "#ffcc00",
             DEFAULT: "#e6b800",
@@ -35,6 +35,8 @@ module.exports = {
       backgroundImage: {
         circularLight:
           "repeating-radial-gradient(rgba(29,29,29,4) 2px, #f1f1f101 5px, #f1f1f101 100px)",
+        circularDark:
+          "repeating-radial-gradient(rgba(241,241,241,4) 2px, #f1f1f101 5px, #f1f1f101 100px)",
       },
     },
     patterns: {
