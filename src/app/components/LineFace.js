@@ -37,15 +37,17 @@ export default function LineFace() {
       >
         <motion.path
           initial={{ opacity: 0 }}
-          animate={{ opacity: [0, 0.4, 0.5, 1], scale: ["90%", "100%"] }}
+          animate={{ opacity: [0, 0.4, 0.5, 1] }}
           className="fill-transparent dark:fill-theme-yellow transition-[fill] ease-in-out duration-300 "
           transition={{
             duration: isLoaded ? 0 : 5,
             ease: "easeInOut",
+            delay: isLoaded ? 0 : 4,
             // repeat: 1,
             // repeatType: "loop",
             // repeatDelay: 1,
           }}
+          id="outlinepath"
           d="M87.6,352.8c0,0-4.7,2.7-6.2,1.8c-1.5-0.8-2.1-1-2.2-2.5c-0.1-1.5-3-46.5-5.6-55.2c0,0-5.8-9.4-8.1-12.2
 	c-2.3-2.9-8.5-13.9-11.3-20.1s-9.6-17.1-10.5-19.3s-8.2-15.4-10.3-21.4s-8.4-25.8-9.7-28.8s-4.5-15-6.2-18.7
 	c-1.7-3.7-8.6-20.3-9.6-22.9c-1-2.7-4.7-13.9-0.5-26.2s18.2-34.6,18.2-34.6s16.8-29.4,17.2-30s12.8-13.3,21.5-21.5
@@ -58,6 +60,22 @@ export default function LineFace() {
 	c0,0-11,4.4-15.8,6.2c-4.7,1.8-13.3,4.5-26.2,4.3c0,0-15.6,0.3-26-0.6c-10.5-0.9-22.8-2.6-29.9-1.3C95.9,348.5,91,349.5,87.6,352.8z
 	"
         />
+        <text>
+          <motion.textPath
+            href="#outlinepath"
+            className="dark:fill-theme-white fill-theme-yellow text-sm p-1 font-body"
+            initial={{ startOffset: 0 }}
+            animate={{ startOffset: [0, "100%"] }}
+            transition={{
+              duration: 10,
+              ease: "easeInOut",
+              delay: isLoaded ? 1 : 6,
+            }}
+          >
+            Developer * Designer * Photographer * Father * Artist * Exploror *
+            Dreamer
+          </motion.textPath>
+        </text>
         <motion.path
           initial={{ pathLength: isLoaded ? 1 : 0, pathOffset: 1 }}
           animate={{ pathLength: 1, pathOffset: 0 }}

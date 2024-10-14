@@ -21,6 +21,12 @@
   .page-big-link {
     @apply flex justify-start font-primary text-3xl text-left;
   }
+  .polka-bg {
+    @apply bg-theme-white dark:bg-theme-black opacity-100 bg-polka bg-[10px_10px] bg-[0_0,5px_5px];
+  }
+  .wave-bg {
+    @apply pattern-wavy pattern-theme-grey pattern-bg-theme-white dark:pattern-theme-darkblack dark:pattern-bg-theme-black pattern-size-4 pattern-opacity-100;
+  }
 }
 
 ::selection {

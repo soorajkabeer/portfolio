@@ -32,7 +32,7 @@ export default function About() {
           </p>
           <div className="pt-5">
             <CustomButton
-              href="/about/skills"
+              href="#skills"
               text="Skills and Tech Stack"
               className="page-link-button"
             />
@@ -48,7 +48,10 @@ export default function About() {
             />
           </div>
         </div>
-        <section className="w-full">
+        {/* <section className="w-full">
+          <Skills />
+        </section> */}
+        <section className="w-full" id="skills">
           <Skills />
         </section>
       </main>

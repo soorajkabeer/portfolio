@@ -19,7 +19,7 @@ export default function Contact() {
             text="soorajkabeer@gmail.com"
             className="page-big-link dark:text-theme-yellow-light"
             underlineColor="bg-theme-green"
-            hoverEffectColor="dark:bg-theme-darkblack"
+            hoverEffectColor="bg-theme-yellow dark:bg-theme-darkblack"
             position="bottom-3 left-0"
           />
           <CustomHighlightLink
@@ -27,7 +27,7 @@ export default function Contact() {
             text="soorajkabeer.fl@gmail.com"
             className="page-big-link dark:text-theme-yellow-light"
             underlineColor="bg-theme-green"
-            hoverEffectColor="dark:bg-theme-darkblack"
+            hoverEffectColor="bg-theme-yellow dark:bg-theme-darkblack"
             position="bottom-3 left-0"
             aftertext=" (Freelance Enquires)"
           />

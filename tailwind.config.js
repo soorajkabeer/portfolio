@@ -37,6 +37,8 @@ module.exports = {
           "repeating-radial-gradient(rgba(29,29,29,4) 2px, #f1f1f101 5px, #f1f1f101 100px)",
         circularDark:
           "repeating-radial-gradient(rgba(241,241,241,4) 2px, #f1f1f101 5px, #f1f1f101 100px)",
+        polka:
+          "radial-gradient(#d3d3d3 0.25px, transparent 0.25px), radial-gradient(#d3d3d3 0.25px, #f1f1f1 0.25px)",
       },
     },
     patterns: {
