@@ -2,6 +2,7 @@ import React from "react";
 import CustomButton from "../components/CustomButton";
 import CustomLink from "../components/CustomLink";
 import Skills from "../components/Skills";
+import Studies from "../components/Studies";
 
 export default function About() {
   return (
@@ -48,9 +49,9 @@ export default function About() {
             />
           </div>
         </div>
-        {/* <section className="w-full">
-          <Skills />
-        </section> */}
+        <section className="w-full">
+          <Studies />
+        </section>
         <section className="w-full" id="skills">
           <Skills />
         </section>

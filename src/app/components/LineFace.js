@@ -42,7 +42,7 @@ export default function LineFace() {
           transition={{
             duration: isLoaded ? 0 : 5,
             ease: "easeInOut",
-            delay: isLoaded ? 0 : 4,
+            // delay: isLoaded ? 0 : 4,
             // repeat: 1,
             // repeatType: "loop",
             // repeatDelay: 1,
@@ -60,7 +60,7 @@ export default function LineFace() {
 	c0,0-11,4.4-15.8,6.2c-4.7,1.8-13.3,4.5-26.2,4.3c0,0-15.6,0.3-26-0.6c-10.5-0.9-22.8-2.6-29.9-1.3C95.9,348.5,91,349.5,87.6,352.8z
 	"
         />
-        <text>
+        {/* <text>
           <motion.textPath
             href="#outlinepath"
             className="dark:fill-theme-white fill-theme-yellow text-sm p-1 font-body"
@@ -75,7 +75,7 @@ export default function LineFace() {
             Developer * Designer * Photographer * Father * Artist * Exploror *
             Dreamer
           </motion.textPath>
-        </text>
+        </text> */}
         <motion.path
           initial={{ pathLength: isLoaded ? 1 : 0, pathOffset: 1 }}
           animate={{ pathLength: 1, pathOffset: 0 }}
