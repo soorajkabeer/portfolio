@@ -3,6 +3,8 @@ import LineFace from "./components/LineFace";
 import Link from "next/link";
 import { LinkArrow } from "./components/Icon";
 import CustomButton from "./components/CustomButton";
+import { FlipLink } from "./components/FlipLink";
+import "./titleColor.css";
 
 export default function Home() {
   return (
@@ -23,12 +25,16 @@ export default function Home() {
                 </p>
               </div>
               <div className="flex justify-center items-center font-primary text-9xl pl-6 tracking-normal relative group">
-                <h1 className="z-10 bg-gradient-to-bl from-theme-green to-theme-green-light bg-clip-text text-transparent">
+                {/* <h1 className="z-10 bg-gradient-to-bl from-theme-green to-theme-green-light bg-clip-text text-transparent">
                   SOORAJ KABEER
                 </h1>
                 <span className="h-5 inline-block bg-theme-yellow absolute left-4 bottom-3 group-hover:w-full  transition-[width,height] ease duration-300 w-0">
                   &nbsp;
-                </span>
+                </span> */}
+
+                <FlipLink href="#" className="">
+                  SOORAJ&nbsp;KABEER
+                </FlipLink>
               </div>
             </div>
             <div className="flex justify-start font-primary text-3xl text-left pt-1 pb-3 pl-2 text-theme-black dark:text-theme-white">
