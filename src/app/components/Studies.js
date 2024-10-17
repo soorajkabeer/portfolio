@@ -50,10 +50,10 @@ const Studies = () => {
   });
   return (
     <>
-      <h2 className="page-sub-title mt-24 w-full text-theme-black dark:text-theme-white">
+      <h2 className="page-sub-title w-full text-theme-black dark:text-theme-white">
         Educational Qualifications
       </h2>
-      <div ref={ref} className="w-[95%] mx-auto relative mt-5">
+      <div ref={ref} className="w-[95%] mx-auto mb-32 relative mt-5">
         <motion.div
           style={{ scaleY: scrollYProgress }}
           className="absolute left-9 top-0 w-[4px] h-full bg-theme-black dark:bg-theme-yellow origin-top"

@@ -21,7 +21,7 @@ const Skill = ({ name, x, y, className = "text-2xl" }) => {
 const Skills = () => {
   return (
     <>
-      <h2 className="page-sub-title mt-32 w-full text-theme-black dark:text-theme-white">
+      <h2 className="page-sub-title mt-12 w-full text-theme-black dark:text-theme-white">
         From Shopify to React, design to development, I’ve got you covered.
       </h2>
       <p className="page-text text-theme-black dark:text-theme-white">

@@ -8,7 +8,7 @@ export default function About() {
   return (
     <div className="items-center justify-items-center p-8 pb-20 sm:p-20 ">
       <main className="flex justify-center items-center flex-col">
-        <div className="flex flex-col justify-between gap-4 text-theme-black dark:text-theme-white">
+        <div className="flex flex-col justify-between gap-4 mb-32 text-theme-black dark:text-theme-white">
           <h1 className="page-title">Creative. Developer. Storyteller</h1>
           <p className="page-text">
             My journey in web development began in 2017 when my company shifted
