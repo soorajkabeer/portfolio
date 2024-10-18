@@ -52,6 +52,8 @@ export default function Home() {
             <div className="flex items-center self-start mt-2">
               <Link
                 href="/download/sooraj_kabeer_resume.pdf"
+                download
+                target="_blank"
                 className={"page-link-button relative group"}
                 title="Download My Resume"
               >

@@ -55,55 +55,34 @@ const Experience = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 text-left">
           <Details
-            position="Catalog Analyst/Web Developer"
-            company="Jafrum Int."
-            companyLink="//www.jafrum.com"
-            time="02/2016 - 03/2018"
-            address="Alappuzha"
-            work={
-              <ul className="font-body text-lg mt-2 ml-5 list-disc marker:text-theme-yellow-dark">
-                <li>
-                  Created and optimized product listings using NetSuite and
-                  Magento 2.
-                </li>
-                <li>
-                  Designed high-quality product images, logos, advertisement
-                  banners, and promotional videos.
-                </li>
-                <li>Handled email marketing via MailChimp</li>
-                <li>
-                  Developed custom elements using HTML, JavaScript, and CSS.
-                </li>
-                <li>
-                  Enhanced user experience with responsive and interactive
-                  components.
-                </li>
-              </ul>
-            }
-          />
-          <Details
-            position="Web Designer / Developer"
+            position="Senior Full Stack Web Developer "
             company="Commerzilla LLC"
-            companyLink="//commerzilla.com/"
-            time="04/2018 - 03/2020"
-            address="Alappuzha"
+            companyLink="https://commerzilla.com/"
+            time="09/2023 – 04/2024"
+            address="Remote (Alappuzha, India)"
             work={
               <ul className="font-body text-lg mt-2 ml-5 list-disc marker:text-theme-yellow-dark">
                 <li>
-                  Created and developed client projects on WordPress, Shopify,
-                  and BigCommerce.
+                  Developed and updated custom Shopify themes and apps using
+                  Liquid, JavaScript, React.js, and Node.js.
                 </li>
                 <li>
-                  Designed high-quality product images, logos, advertisement
-                  banners, and promotional videos.
+                  Supervised Shopify projects, managing clients' stores and
+                  ensuring high performance and user satisfaction.
                 </li>
                 <li>
-                  Handled email marketing for clients using Klaviyo, MailChimp
-                  and HubSpot.
+                  Regularly optimized SEO, mobile optimization, ensured
+                  accessibility and monitored site speed, significantly
+                  improving website performance and CRO for client stores via
+                  A/B testing.
                 </li>
                 <li>
-                  Improved SEO, mobile optimization, and page speed for client
-                  websites.
+                  Administered Commerzilla WordPress site and WooCommerce store,
+                  managing Google Analytics and Search Console for clients.
+                </li>
+                <li>
+                  Led the Turmerry development team, managing daily operations,
+                  customer support, and strategic enhancements.
                 </li>
               </ul>
             }
@@ -140,34 +119,55 @@ const Experience = () => {
             }
           />
           <Details
-            position="Senior Full Stack Web Developer "
+            position="Web Designer / Developer"
             company="Commerzilla LLC"
-            companyLink="https://commerzilla.com/"
-            time="09/2023 – 04/2024"
-            address="Remote (Alappuzha, India)"
+            companyLink="//commerzilla.com/"
+            time="04/2018 - 03/2020"
+            address="Alappuzha"
             work={
               <ul className="font-body text-lg mt-2 ml-5 list-disc marker:text-theme-yellow-dark">
                 <li>
-                  Developed and updated custom Shopify themes and apps using
-                  Liquid, JavaScript, React.js, and Node.js.
+                  Created and developed client projects on WordPress, Shopify,
+                  and BigCommerce.
                 </li>
                 <li>
-                  Supervised Shopify projects, managing clients' stores and
-                  ensuring high performance and user satisfaction.
+                  Designed high-quality product images, logos, advertisement
+                  banners, and promotional videos.
                 </li>
                 <li>
-                  Regularly optimized SEO, mobile optimization, ensured
-                  accessibility and monitored site speed, significantly
-                  improving website performance and CRO for client stores via
-                  A/B testing.
+                  Handled email marketing for clients using Klaviyo, MailChimp
+                  and HubSpot.
                 </li>
                 <li>
-                  Administered Commerzilla WordPress site and WooCommerce store,
-                  managing Google Analytics and Search Console for clients.
+                  Improved SEO, mobile optimization, and page speed for client
+                  websites.
+                </li>
+              </ul>
+            }
+          />
+          <Details
+            position="Catalog Analyst/Web Developer"
+            company="Jafrum Int."
+            companyLink="//www.jafrum.com"
+            time="02/2016 - 03/2018"
+            address="Alappuzha"
+            work={
+              <ul className="font-body text-lg mt-2 ml-5 list-disc marker:text-theme-yellow-dark">
+                <li>
+                  Created and optimized product listings using NetSuite and
+                  Magento 2.
                 </li>
                 <li>
-                  Led the Turmerry development team, managing daily operations,
-                  customer support, and strategic enhancements.
+                  Designed high-quality product images, logos, advertisement
+                  banners, and promotional videos.
+                </li>
+                <li>Handled email marketing via MailChimp</li>
+                <li>
+                  Developed custom elements using HTML, JavaScript, and CSS.
+                </li>
+                <li>
+                  Enhanced user experience with responsive and interactive
+                  components.
                 </li>
               </ul>
             }

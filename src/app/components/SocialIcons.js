@@ -14,6 +14,7 @@ const SocialIcons = ({
   className = "",
   iconClassName = "fill-black",
   background = "bg-transparent",
+  hover = "bg-theme-yellow",
 }) => {
   return (
     <nav className={`${className}`}>
@@ -21,61 +22,79 @@ const SocialIcons = ({
         href="//www.linkedin.com/in/sooraj-kabeer/"
         target={"_blank"}
         title="LinkedIn"
-        className={`p-2 h-full w-full flex justify-center items-center ${
+        className={`p-2 h-full w-full flex justify-center items-center relative group ${
           border ? "border-theme-black dark:border-theme-white border-2" : ""
         } ${background}`}
       >
-        <LinkedinIcon className={iconClassName} />
+        <LinkedinIcon className={`${iconClassName} z-20`} />
+        <span
+          className={`absolute ${hover} z-10 h-full left-0 bottom-0 group-hover:w-full transition-[width] ease duration-300 w-0`}
+        ></span>
       </Link>
       <Link
         href="//github.com/soorajkabeer"
         target={"_blank"}
         title="Github"
-        className={`p-2 h-full w-full flex justify-center items-center ${
+        className={`p-2 h-full w-full flex justify-center items-center relative group ${
           border ? "border-theme-black dark:border-theme-white border-2" : ""
         } ${background}`}
       >
-        <GithubIcon className={iconClassName} />
+        <GithubIcon className={`${iconClassName} z-20`} />
+        <span
+          className={`absolute ${hover} z-10 h-full left-0 bottom-0 group-hover:w-full transition-[width] ease duration-300 w-0`}
+        ></span>
       </Link>
       <Link
         href="//www.facebook.com/sooraj.kabeer"
         target={"_blank"}
         title="Facebook"
-        className={`p-2 h-full w-full flex justify-center items-center ${
+        className={`p-2 h-full w-full flex justify-center items-center relative group ${
           border ? "border-theme-black dark:border-theme-white border-2" : ""
         } ${background}`}
       >
-        <FacebookIcon className={iconClassName} />
+        <FacebookIcon className={`${iconClassName} z-20`} />
+        <span
+          className={`absolute ${hover} z-10 h-full left-0 bottom-0 group-hover:w-full transition-[width] ease duration-300 w-0`}
+        ></span>
       </Link>
       <Link
         href="//www.instagram.com/soorajkabeer/"
         target={"_blank"}
         title="Instagram"
-        className={`p-2 h-full w-full flex justify-center items-center ${
+        className={`p-2 h-full w-full flex justify-center items-center relative group ${
           border ? "border-theme-black dark:border-theme-white border-2" : ""
         } ${background}`}
       >
-        <InstagramIcon className={iconClassName} />
+        <InstagramIcon className={`${iconClassName} z-20`} />
+        <span
+          className={`absolute ${hover} z-10 h-full left-0 bottom-0 group-hover:w-full transition-[width] ease duration-300 w-0`}
+        ></span>
       </Link>
       <Link
         href="mailto:name@email.com"
         target={"_blank"}
         title="Email Me"
-        className={`p-2 h-full w-full flex justify-center items-center ${
+        className={`p-2 h-full w-full flex justify-center items-center relative group ${
           border ? "border-theme-black dark:border-theme-white border-2" : ""
         } ${background}`}
       >
-        <EmailIcon className={`h-4 ${iconClassName}`} />
+        <EmailIcon className={`h-4 ${iconClassName} z-20`} />
+        <span
+          className={`absolute ${hover} z-10 h-full left-0 bottom-0 group-hover:w-full transition-[width] ease duration-300 w-0`}
+        ></span>
       </Link>
       <Link
         href="//www.behance.net/soorajkabeer"
         target={"_blank"}
         title="Behance"
-        className={`p-2 h-full w-full flex justify-center items-center ${
+        className={`p-2 h-full w-full flex justify-center items-center relative group ${
           border ? "border-theme-black dark:border-theme-white border-2" : ""
         } ${background}`}
       >
-        <BehanceIcon className={iconClassName} />
+        <BehanceIcon className={`${iconClassName} z-20`} />
+        <span
+          className={`absolute ${hover} z-10 h-full left-0 bottom-0 group-hover:w-full transition-[width] ease duration-300 w-0`}
+        ></span>
       </Link>
     </nav>
   );
