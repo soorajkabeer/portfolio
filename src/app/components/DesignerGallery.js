@@ -2,46 +2,82 @@
 import Image from "next/image";
 import { useTransform, motion } from "framer-motion";
 
+// const images = [
+//   "1.jpg",
+//   "2.jpg",
+//   "3.jpg",
+//   "4.jpg",
+//   "5.jpg",
+//   "6.jpg",
+//   "7.jpg",
+//   "8.jpg",
+//   "9.jpg",
+//   "10.jpg",
+//   "11.jpg",
+//   "12.jpg",
+//   "13.jpg",
+//   "14.jpg",
+//   "15.jpg",
+//   "16.jpg",
+//   "17.jpg",
+//   "18.jpg",
+//   "19.jpg",
+//   "20.jpg",
+//   "21.jpg",
+// ];
 const images = [
-  "1.jpg",
-  "2.jpg",
-  "3.jpg",
-  "4.jpg",
-  "5.jpg",
-  "6.jpg",
-  "7.jpg",
-  "8.jpg",
-  "9.jpg",
-  "10.jpg",
-  "11.jpg",
-  "12.jpg",
-  "13.jpg",
-  "14.jpg",
-  "15.jpg",
-  "16.jpg",
-  "17.jpg",
-  "18.jpg",
-  "19.jpg",
-  "20.jpg",
-  "21.jpg",
+  ["1.jpg", "Hikerpedia Logo mockup on a t-shirt"],
+  ["2.jpg", "UX design done for a BirdCare App"],
+  ["3.jpg", "Sayanora Fashions logo on a Shirt"],
+  ["4.jpg", "Hijab USA logo"],
+  ["5.jpg", "Sooraj Kabeer Photography logo mockup"],
+  ["6.jpg", "Wayand Wonders logo mockup"],
+  ["7.jpg", "Aquazilla Homepage Design"],
+  ["8.jpg", "Sarath Kannan Edits Logo mockup"],
+  ["9.jpg", "Sayanora logo in Leather"],
+  ["10.jpg", "Fishzilla Homepage Design"],
+  ["11.jpg", "Purchase page ux design done for a clothing app"],
+  ["12.jpg", "Sooraj Kabeer Photography logo on leather mockup"],
+  ["13.jpg", "Smilecraft dental clinic logo mockup"],
+  ["14.jpg", "UI prototype done for a Fish exporter in Kochi"],
+  ["15.jpg", "Escort Tyres logo projection mockup"],
+  ["16.jpg", "Hijab USA Logo"],
+  ["17.jpg", "UI prototype done for a Fish exporter in Kerala"],
+  ["18.jpg", "Chefmate logo on a card"],
+  ["19.jpg", "Jafrum neon light"],
+  ["20.jpg", "SeaFood Export logo on the wall of a corporate building"],
+  ["21.jpg", "Aquazilla logo in neon lighting"],
 ];
 const ImageSet = ({ images }) => {
   return (
     <div
-      className="grid gap-4"
+      className="grid gap-6"
       //   style={{ y }}
     >
-      {images.map((src, i) => {
+      {images.map((img, i) => {
         return (
-          <div key={i}>
+          <motion.div
+            key={i}
+            initial={{ y: 50 }}
+            whileInView={{
+              y: 0,
+              filter: "saturate(100%) grayscale(.5)",
+            }}
+            transition={{ duration: 0.5, type: "spring" }}
+            whileHover={{
+              scale: 1.05,
+              transition: { duration: 0.5 },
+              filter: "saturate(150%) grayscale(0)",
+            }}
+          >
             <Image
-              src={`/designer/${src}`}
+              src={`/designer/${img[0]}`}
               className="h-full w-full max-w-full rounded-lg object-cover"
-              alt="image"
+              alt={`${img[1]}`}
               width={500}
               height={500}
             />
-          </div>
+          </motion.div>
         );
       })}
     </div>
