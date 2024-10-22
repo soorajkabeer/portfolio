@@ -8,11 +8,11 @@ const Project = () => {
     <div className="h-[40rem] w-full flex items-center justify-center ">
       <PinContainer title="Turmerry.com" href="https://www.turmerry.com/">
         <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
-          <h3 className="max-w-xs !pb-2 !m-0 font-primary text-xl text-base text-theme-white dark:text-theme-green-dark">
+          <h3 className="max-w-xs !pb-2 !m-0 font-primary text-xl text-base dark:text-theme-white text-theme-green-dark">
             Turmerry
           </h3>
           <div className="text-base !m-0 !p-0 font-normal">
-            <span className="text-theme-white dark:text-theme-black/[.8] ">
+            <span className="dark:text-theme-white text-theme-black/[.8] ">
               A leading Bedding D2C brand located in Charlotte, North Carolina,
               USA
             </span>
@@ -29,13 +29,12 @@ const Project = () => {
       </PinContainer>
       <PinContainer title="Turmerry.com" href="https://www.turmerry.com/">
         <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
-          <h3 className="max-w-xs !pb-2 !m-0 font-primary text-xl text-base text-theme-white dark:text-theme-green-dark">
-            Turmerry
+          <h3 className="max-w-xs !pb-2 !m-0 font-primary text-xl text-base dark:text-theme-white text-theme-green-dark">
+            Team Motorcycle
           </h3>
           <div className="text-base !m-0 !p-0 font-normal">
-            <span className="text-theme-white dark:text-theme-black/[.8] ">
-              A leading Bedding D2C brand located in Charlotte, North Carolina,
-              USA
+            <span className="dark:text-theme-white text-theme-black/[.8] ">
+              A leading motorcycle accessories D2C brand located in USA
             </span>
           </div>
           <div className="flex flex-1 w-full  mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500">
@@ -50,11 +49,11 @@ const Project = () => {
       </PinContainer>
       <PinContainer title="Turmerry.com" href="https://www.turmerry.com/">
         <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
-          <h3 className="max-w-xs !pb-2 !m-0 font-primary text-xl text-base text-theme-white dark:text-theme-green-dark">
+          <h3 className="max-w-xs !pb-2 !m-0 font-primary text-xl text-base dark:text-theme-white text-theme-green-dark">
             Turmerry
           </h3>
           <div className="text-base !m-0 !p-0 font-normal">
-            <span className="text-theme-white dark:text-theme-black/[.8] ">
+            <span className="dark:text-theme-white text-theme-black/[.8] ">
               A leading Bedding D2C brand located in Charlotte, North Carolina,
               USA
             </span>
