@@ -27,6 +27,9 @@
   .wave-bg {
     @apply pattern-wavy pattern-theme-grey pattern-bg-theme-white dark:pattern-theme-darkblack dark:pattern-bg-theme-black pattern-size-4 pattern-opacity-100;
   }
+  .theme-change * {
+    @apply transition-colors duration-300 ease-in-out;
+  }
 }
 
 ::selection {

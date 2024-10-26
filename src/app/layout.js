@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
       >
         <div className="w-full min-h-screen bg-theme-white dark:bg-theme-black grid grid-cols-1 justify-between">
           <div className="wave-bg">
-            <div className="h-full flex flex-col justify-between">
+            <div className="theme-change h-full flex flex-col justify-between">
               <NavBar />
               {children}
               <Footer />
