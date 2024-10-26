@@ -5,8 +5,8 @@ import Image from "next/image";
 
 const Project = () => {
   return (
-    <div className="h-[40rem] w-full flex items-center justify-center flex-wrap my-10 mx-5">
-      <div>
+    <div className="w-full flex items-center justify-center flex-wrap my-10 mx-5 gap-10">
+      <div className="h-[22rem]">
         <PinContainer title="Turmerry.com" href="https://www.turmerry.com/">
           <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
             <h3 className="max-w-xs !pb-2 !m-0 font-primary text-xl  dark:text-theme-white text-theme-green-dark">
@@ -29,7 +29,7 @@ const Project = () => {
           </div>
         </PinContainer>
       </div>
-      <div>
+      <div className="h-[22rem]">
         <PinContainer
           title="Team Motorcycle"
           href="https://www.teammotorcycle.com/"
@@ -54,7 +54,33 @@ const Project = () => {
           </div>
         </PinContainer>
       </div>
-      <div>
+      <div className="h-[22rem]">
+        <PinContainer
+          title="USA Wholesale Supplier"
+          href="https://www.usawholesalesupplier.com/"
+        >
+          <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
+            <h3 className="max-w-xs !pb-2 !m-0 font-primary text-xl  dark:text-theme-white text-theme-green-dark">
+              USA Wholesale Supplier
+            </h3>
+            <div className="text-base !m-0 !p-0 font-normal">
+              <span className="dark:text-theme-white text-theme-black/[.8] ">
+                A B2B bedding wholesalers based in Charlotte, North Carolina,
+                USA
+              </span>
+            </div>
+            <div className="flex flex-1 w-full  mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500">
+              <Image
+                src="/projects/usawholesalesupplier.jpg"
+                width={500}
+                height={500}
+                alt="TeamMotocycle"
+              />
+            </div>
+          </div>
+        </PinContainer>
+      </div>
+      <div className="h-[22rem]">
         <PinContainer
           title="American Islamic Outreach"
           href="https://americanislamicoutreach.org/"
@@ -79,7 +105,7 @@ const Project = () => {
           </div>
         </PinContainer>
       </div>
-      <div>
+      <div className="h-[22rem]">
         <PinContainer title="House of Oud" href="https://houseofoud.in/">
           <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
             <h3 className="max-w-xs !pb-2 !m-0 font-primary text-xl  dark:text-theme-white text-theme-green-dark">
@@ -96,6 +122,53 @@ const Project = () => {
                 width={500}
                 height={500}
                 alt="House of Oud"
+              />
+            </div>
+          </div>
+        </PinContainer>
+      </div>
+      <div className="h-[22rem]">
+        <PinContainer title="Commerzilla" href="https://commerzilla.com/">
+          <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
+            <h3 className="max-w-xs !pb-2 !m-0 font-primary text-xl  dark:text-theme-white text-theme-green-dark">
+              Commerzilla
+            </h3>
+            <div className="text-base !m-0 !p-0 font-normal">
+              <span className="dark:text-theme-white text-theme-black/[.8] ">
+                A web agency based in USA, working mainly on Shopify.
+              </span>
+            </div>
+            <div className="flex flex-1 w-full  mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500">
+              <Image
+                src="/projects/commerzilla.jpg"
+                width={500}
+                height={500}
+                alt="Commerzilla"
+              />
+            </div>
+          </div>
+        </PinContainer>
+      </div>
+      <div className="h-[22rem]">
+        <PinContainer
+          title="Root Mountain Health"
+          href="https://rootmountain.com"
+        >
+          <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
+            <h3 className="max-w-xs !pb-2 !m-0 font-primary text-xl  dark:text-theme-white text-theme-green-dark">
+              Root Mountain Health
+            </h3>
+            <div className="text-base !m-0 !p-0 font-normal">
+              <span className="dark:text-theme-white text-theme-black/[.8] ">
+                A US based Healthy Lifestye brand
+              </span>
+            </div>
+            <div className="flex flex-1 w-full  mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500">
+              <Image
+                src="/projects/rootmountain.jpg"
+                width={500}
+                height={500}
+                alt="Root Mountain Health"
               />
             </div>
           </div>
