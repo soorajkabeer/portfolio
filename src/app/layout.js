@@ -1,8 +1,9 @@
 import localFont from "next/font/local";
 import "./globals.css";
-import Link from "next/link";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
+import PageAnimatePresence from "./components/HOC/PageAnimatePresence";
+import { AnimatePresence } from "framer-motion";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -31,7 +32,7 @@ export default function RootLayout({ children }) {
           <div className="wave-bg">
             <div className="theme-change h-full flex flex-col justify-between">
               <NavBar />
-              {children}
+              <PageAnimatePresence>{children}</PageAnimatePresence>
               <Footer />
             </div>
           </div>
