@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import PageAnimatePresence from "./components/HOC/PageAnimatePresence";
 import { AnimatePresence } from "framer-motion";
+import MousePointer from "./components/MousePointer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -34,6 +35,7 @@ export default function RootLayout({ children }) {
               <NavBar />
               <PageAnimatePresence>{children}</PageAnimatePresence>
               <Footer />
+              <MousePointer />
             </div>
           </div>
         </div>
