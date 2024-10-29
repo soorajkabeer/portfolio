@@ -6,7 +6,7 @@ const Skill = ({ name, x, y, className = "text-2xl" }) => {
     <>
       <motion.div
         className={`${className} flex items-center justify-center  text-theme-black font-body py-3 px-6 shadow-theme-black dark:shadow-theme-yellow-dark  dark:text-theme-yellow absolute`}
-        whileHover={{ scale: 1.05 }}
+        whileHover={{ scale: 1.05, transition: { duration: 0.5 } }}
         initail={{ x: 0, y: 0 }}
         whileInView={{ x: x, y: y }}
         transition={{ duration: 1.5 }}
