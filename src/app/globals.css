@@ -16,7 +16,7 @@
     @apply font-body text-xl;
   }
   .page-link-button {
-    @apply border-2 border-theme-black dark:border-theme-white px-4 py-2 font-primary text-2xl mt-5 mr-5 hover:text-theme-green transition-colors duration-300;
+    @apply border-2 border-theme-black dark:border-theme-white px-4 py-2 font-primary text-2xl mt-5 mr-5 transition-colors duration-300;
   }
   .page-big-link {
     @apply flex justify-start font-primary text-3xl text-left;

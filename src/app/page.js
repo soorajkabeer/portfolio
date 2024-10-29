@@ -61,10 +61,10 @@ export default function Home() {
                   className={"page-link-button relative group"}
                   title="Download My Resume"
                 >
-                  <span className="flex inline-block z-10 relative text-theme-black dark:text-theme-white group-hover:text-theme-yellow">
+                  <span className="flex inline-block z-10 relative text-theme-black dark:text-theme-white">
                     Resume <LinkArrow className={"w-6 ml-2 items-center c"} />
                   </span>
-                  <span className="h-full bg-blend-multiply inline-block bg-theme-black dark:bg-theme-white absolute left-0 bottom-0 z-0 group-hover:w-full transition-[width] ease duration-300 w-0 pointer-events-none">
+                  <span className="h-2 bg-blend-multiply inline-block bg-theme-yellow absolute left-0 bottom-0 z-0 group-hover:w-full transition-[width] ease duration-300 w-0 pointer-events-none">
                     &nbsp;
                   </span>
                 </Link>
