@@ -58,6 +58,25 @@ module.exports = {
           "radial-gradient(#d3d3d3 0.25px, transparent 0.25px), radial-gradient(#d3d3d3 0.25px, #f1f1f1 0.25px)",
       },
     },
+    screens: {
+      "2xl": { max: "1535px" },
+      // => @media (max-width: 1535px) { ... }
+
+      xl: { max: "1279px" },
+      // => @media (max-width: 1279px) { ... }
+
+      lg: { max: "1023px" },
+      // => @media (max-width: 1023px) { ... }
+
+      md: { max: "767px" },
+      // => @media (max-width: 767px) { ... }
+
+      sm: { max: "639px" },
+      // => @media (max-width: 639px) { ... }
+
+      xs: { max: "479px" },
+      // => @media (max-width: 479px) { ... }
+    },
     patterns: {
       opacities: {
         100: "1",
