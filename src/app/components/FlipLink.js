@@ -4,13 +4,18 @@ import * as motion from "framer-motion/client";
 const DURATION = 0.25;
 const STAGGER = 0.025;
 
-export const FlipLink = ({ children, href, className }) => {
+export const FlipLink = ({
+  children,
+  href,
+  className,
+  designClassPrefix = "tx",
+}) => {
   return (
     <motion.a
       initial="initial"
       whileHover="hovered"
       href={href}
-      className={`relative block overflow-hidden whitespace-nowrap text-9xl font-black uppercase ${className}`}
+      className={`relative block overflow-hidden whitespace-nowrap font-black uppercase ${className}`}
       style={{
         lineHeight: 0.75,
       }}
@@ -31,7 +36,7 @@ export const FlipLink = ({ children, href, className }) => {
               ease: "easeInOut",
               delay: STAGGER * i,
             }}
-            className={`inline-block htc-${i}`}
+            className={`inline-block ${designClassPrefix}-${i}`}
             key={i}
           >
             {l}
@@ -54,7 +59,7 @@ export const FlipLink = ({ children, href, className }) => {
               ease: "easeInOut",
               delay: STAGGER * i,
             }}
-            className={`inline-block htc-${i}`}
+            className={`inline-block ${designClassPrefix}-${i}`}
             key={i}
           >
             {l}

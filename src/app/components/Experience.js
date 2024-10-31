@@ -24,7 +24,7 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
             target={"_blank"}
             text={company}
             underlineColor="bg-theme-green dark:bg-theme-green"
-            hoverEffectColor="dark:bg-theme-yellow-dark"
+            hoverEffectColor="dark:bg-theme-yellow-dark bg-theme-yellow-light"
             className="dark:text-theme-white "
             position="bottom-3 left-0"
             beforetext={`${position} @`}

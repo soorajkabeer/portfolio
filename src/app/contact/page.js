@@ -20,23 +20,24 @@ export default function Contact() {
             <CustomHighlightLink
               href="mailto:soorajkabeer@gmail.com"
               text="soorajkabeer@gmail.com"
-              className="page-big-link dark:text-theme-yellow-light"
-              underlineColor="bg-theme-green"
-              hoverEffectColor="bg-theme-yellow dark:bg-theme-darkblack"
+              className="page-big-link dark:text-theme-white"
+              underlineColor="bg-theme-green dark:bg-theme-yellow"
+              hoverEffectColor="bg-theme-yellow dark:bg-theme-green"
               position="bottom-3 left-0"
             />
             <CustomHighlightLink
               href="mailto:soorajkabeer.fl@gmail.com"
               text="soorajkabeer.fl@gmail.com"
-              className="page-big-link dark:text-theme-yellow-light"
-              underlineColor="bg-theme-green"
-              hoverEffectColor="bg-theme-yellow dark:bg-theme-darkblack"
+              className="page-big-link dark:text-theme-white"
+              underlineColor="bg-theme-green dark:bg-theme-yellow"
+              hoverEffectColor="bg-theme-yellow dark:bg-theme-green"
               position="bottom-3 left-0"
               aftertext=" (Freelance Enquires)"
             />
             <SocialIcons
               className="grid gap-4 grid-cols-6 items-center justify-center w-full max-w-96 mt-5"
-              background="bg-theme-green"
+              background="bg-theme-green dark:bg-theme-yellow"
+              hover="bg-theme-yellow dark:bg-theme-green"
               iconClassName="fill-theme-white"
             />
           </div>
