@@ -2,9 +2,8 @@ import localFont from "next/font/local";
 import "./globals.css";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
-import PageAnimatePresence from "./components/HOC/PageAnimatePresence";
-import { AnimatePresence } from "framer-motion";
-import MousePointer from "./components/MousePointer";
+import PageAnimatePresence from "./components/hoc/PageAnimatePresence";
+import MousePointer from "./components/ui/MousePointer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",

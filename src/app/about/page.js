@@ -3,7 +3,7 @@ import CustomButton from "../components/CustomButton";
 import CustomLink from "../components/CustomLink";
 import Skills from "../components/Skills";
 import Studies from "../components/Studies";
-import TransitionEffect from "../components/HOC/TransitionEffect";
+import TransitionEffect from "../components/hoc/TransitionEffect";
 
 export default function About() {
   return (

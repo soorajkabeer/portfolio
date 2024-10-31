@@ -2,7 +2,7 @@ import React from "react";
 import CustomLink from "../components/CustomLink";
 import SocialIcons from "../components/SocialIcons";
 import CustomHighlightLink from "../components/CustomHighlightLink";
-import TransitionEffect from "../components/HOC/TransitionEffect";
+import TransitionEffect from "../components/hoc/TransitionEffect";
 
 export default function Contact() {
   return (

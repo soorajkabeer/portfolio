@@ -5,7 +5,7 @@ import { LinkArrow } from "./components/Icon";
 import CustomButton from "./components/CustomButton";
 import { FlipLink } from "./components/FlipLink";
 import "./titleColor.css";
-import TransitionEffect from "./components/HOC/TransitionEffect";
+import TransitionEffect from "./components/hoc/TransitionEffect";
 
 export default function Home() {
   return (

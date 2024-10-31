@@ -1,5 +1,5 @@
 import DesignerGallery from "@/app/components/DesignerGallery";
-import TransitionEffect from "@/app/components/HOC/TransitionEffect";
+import TransitionEffect from "@/app/components/hoc/TransitionEffect";
 import React from "react";
 
 export default function DesignerMe() {

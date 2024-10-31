@@ -1,6 +1,6 @@
 import React from "react";
 import Experience from "../components/Experience";
-import TransitionEffect from "../components/HOC/TransitionEffect";
+import TransitionEffect from "../components/hoc/TransitionEffect";
 
 export default function Work() {
   return (
