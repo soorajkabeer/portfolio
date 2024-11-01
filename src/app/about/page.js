@@ -35,21 +35,21 @@ export default function About() {
                 className="font-medium"
               />
             </p>
-            <div className="pt-5">
+            <div className="pt-5 sm:flex sm:flex-wrap">
               <CustomButton
                 href="#skills"
                 text="Skills and Tech Stack"
-                className="page-link-button"
+                className="page-link-button sm:w-fit"
               />
               <CustomButton
                 href="/work/projects"
                 text="PROJECTS"
-                className="page-link-button"
+                className="page-link-button  sm:w-fit"
               />
               <CustomButton
                 href="/about/designer-me"
                 text="Designer Me"
-                className="page-link-button"
+                className="page-link-button  sm:w-fit"
               />
             </div>
           </div>

@@ -1,5 +1,4 @@
 import React from "react";
-import CustomLink from "../components/CustomLink";
 import SocialIcons from "../components/SocialIcons";
 import CustomHighlightLink from "../components/CustomHighlightLink";
 import TransitionEffect from "../components/hoc/TransitionEffect";
@@ -28,7 +27,7 @@ export default function Contact() {
             <CustomHighlightLink
               href="mailto:soorajkabeer.fl@gmail.com"
               text="soorajkabeer.fl@gmail.com"
-              className="page-big-link dark:text-theme-white"
+              className="page-big-link dark:text-theme-white sm:flex sm:flex-wrap"
               underlineColor="bg-theme-green dark:bg-theme-yellow"
               hoverEffectColor="bg-theme-yellow dark:bg-theme-green"
               position="bottom-3 left-0"

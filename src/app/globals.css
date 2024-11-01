@@ -7,19 +7,19 @@
 
 @layer components {
   .page-title {
-    @apply font-primary text-5xl text-left pb-3;
+    @apply font-primary md:text-3xl text-5xl text-left pb-3;
   }
   .page-sub-title {
-    @apply font-primary text-4xl text-left pb-3;
+    @apply font-primary md:text-2xl text-4xl text-left pb-3;
   }
   .page-text {
-    @apply font-body text-xl;
+    @apply font-body md:text-base text-xl;
   }
   .page-link-button {
-    @apply border-2 border-theme-black dark:border-theme-white px-4 py-2 font-primary text-2xl mt-5 mr-5 transition-colors duration-300;
+    @apply border-2 border-theme-black dark:border-theme-white px-4 py-2 font-primary md:text-xl text-2xl mt-5 mr-5 transition-colors duration-300;
   }
   .page-big-link {
-    @apply flex justify-start font-primary text-3xl text-left;
+    @apply flex justify-start font-primary md:text-2xl text-3xl text-left;
   }
   .polka-bg {
     @apply bg-theme-white dark:bg-theme-black opacity-100 bg-polka bg-[10px_10px] bg-[0_0,5px_5px];

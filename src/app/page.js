@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <TransitionEffect />
-      <div className="items-center justify-items-center p-8 pb-20 sm:p-5 ">
+      <div className="items-center justify-items-center md:p-4 p-8 pb-20 sm:p-5 ">
         <main className="flex justify-center items-center">
           <div className="sm:block md:flex md:justify-center md:items-center grid ml:grid-cols-[2fr_3fr] lg:grid-cols-[1fr_2fr] grid-cols-[1fr_3fr] max-w-5xl">
             <div className="sm:max-w-44">

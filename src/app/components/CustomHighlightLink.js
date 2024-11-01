@@ -31,7 +31,7 @@ const CustomHighlightLink = ({
           className={`bg-blend-multiply inline-block absolute h-3 w-full ${position} ${hoverEffectColor} pointer-events-none z-0`}
         ></span>
       </Link>
-      {aftertext === "" ? "" : `\xa0${aftertext}`}
+      <span>{aftertext === "" ? "" : `\xa0${aftertext}`}</span>
     </p>
   );
 };

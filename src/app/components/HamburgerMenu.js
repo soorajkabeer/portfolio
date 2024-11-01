@@ -1,5 +1,6 @@
 import React from "react";
 import CustomMobileNavLink from "./CustomMobileNavLink";
+import * as motion from "framer-motion/client";
 
 const HamburgerMenu = ({ isOpen, setIsOpen }) => {
   const handleClick = () => {
@@ -29,36 +30,45 @@ const HamburgerMenu = ({ isOpen, setIsOpen }) => {
           }`}
         ></span>
       </button>
-      {isOpen ? (
-        <div className="min-w-[70vw] w-full h-screen overflow-hidden overscroll-none flex flex-col justify-center z-30 item-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-theme-yellow dark:bg-theme-black">
+      {isOpen && (
+        <motion.div
+          className="min-w-[70vw] w-full h-screen overflow-hidden overscroll-none flex flex-col justify-center z-30 item-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-theme-yellow dark:bg-theme-black"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{
+            duration: 0.5,
+            ease: "easeInOut",
+          }}
+        >
           <nav className="flex items-center justify-center flex-col font-primary text-5xl">
             <CustomMobileNavLink
               href="/"
               title="Home"
-              className="ml-10"
+              className=""
               toggle={handleClick}
             />
             <CustomMobileNavLink
-              className="ml-10"
+              className=""
               href="/about"
               title="About"
               toggle={handleClick}
             />
             <CustomMobileNavLink
-              className="ml-10"
+              className=""
               href="/work"
               title="Works"
               toggle={handleClick}
             />
             <CustomMobileNavLink
-              className="ml-10"
+              className=""
               href="/contact"
               title="Contact"
               toggle={handleClick}
             />
           </nav>
-        </div>
-      ) : null}
+        </motion.div>
+      )}
     </>
   );
 };
