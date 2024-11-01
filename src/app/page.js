@@ -96,7 +96,7 @@ export default function Home() {
                   </p>
                 )}
               </div>
-              <div className="flex md:w-full md:flex-col md:justify-center md:items-center items-center self-start mt-2">
+              <div className="flex md:w-full md:flex-wrap md:justify-center md:items-center items-center self-start mt-2">
                 <Link
                   href="/download/sooraj_kabeer_resume.pdf"
                   download
