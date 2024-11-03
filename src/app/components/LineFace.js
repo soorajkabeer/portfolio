@@ -87,7 +87,7 @@ export default function LineFace() {
             // repeatDelay: 1,
           }}
           strokeWidth={1}
-          strokeDasharray="1 1"
+          strokeDasharray="0 1"
           fill="none"
           className="stroke-theme-black"
           strock-width="1px"
