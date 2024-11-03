@@ -47,7 +47,7 @@ const Experience = () => {
   });
   return (
     <>
-      <h2 className="page-sub-title mt-24 w-full">Professional Experience</h2>
+      <h2 className="page-sub-title mt-24 w-full">My Journey in the Field</h2>
       <div ref={ref} className="md:w-full w-[95%] mx-auto relative mt-5">
         <motion.div
           style={{ scaleY: scrollYProgress }}

@@ -13,11 +13,14 @@ const Skill = ({ name, x, y, className = "text-2xl" }) => {
           transition: { duration: 0.2, ease: easeInOut },
         }}
         initail={{ x: 0, y: 0 }}
-        whileInView={{ x: x, y: y }}
-        transition={{ duration: 1.5, ease: easeInOut }}
+        whileInView={{
+          x: x,
+          y: y,
+          transition: { duration: 1.5, ease: easeInOut },
+        }}
         viewport={{ once: true }}
       >
-        {name}
+        <p>{name}</p>
       </motion.div>
     </>
   );

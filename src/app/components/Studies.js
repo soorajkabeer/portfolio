@@ -51,7 +51,7 @@ const Studies = () => {
   return (
     <>
       <h2 className="page-sub-title w-full text-theme-black dark:text-theme-white">
-        Educational Qualifications
+        Academic Journey
       </h2>
       <div ref={ref} className="md:w-full w-[95%] mx-auto mb-32 relative mt-5">
         <motion.div

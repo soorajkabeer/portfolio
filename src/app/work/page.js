@@ -1,6 +1,7 @@
 import React from "react";
 import Experience from "../components/Experience";
 import TransitionEffect from "../components/hoc/TransitionEffect";
+import CustomButton from "../components/CustomButton";
 
 export default function Work() {
   return (
@@ -35,7 +36,26 @@ export default function Work() {
                 </li>
               </ul>
             </div>
+            <div className="pt-5 sm:flex sm:flex-wrap">
+              <CustomButton
+                href="/work/projects"
+                text="Explore My Projects"
+                className="page-link-button  sm:w-fit"
+              />
+            </div>
             <Experience />
+            <p className="page-text pt-5">
+              I started my career as a designer, and that creative spark has
+              stayed with me ever since, infusing every project with a bit of
+              artistry and intention.
+            </p>
+            <div className="pt-5 sm:flex sm:flex-wrap">
+              <CustomButton
+                href="/about/designer-me"
+                text="View My Designs"
+                className="page-link-button  sm:w-fit"
+              />
+            </div>
           </div>
         </main>
       </div>
