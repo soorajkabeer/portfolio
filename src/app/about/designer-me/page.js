@@ -1,5 +1,5 @@
 import DesignerGallery from "@/app/components/page-ui/DesignerGallery";
-import TransitionEffect from "@/app/components/hoc/TransitionEffect";
+import TransitionEffect from "@/app/components/HOC/TransitionEffect";
 import React from "react";
 
 export const metadata = {

@@ -1,5 +1,5 @@
 import React from "react";
-import TransitionEffect from "../components/hoc/TransitionEffect";
+import TransitionEffect from "../components/HOC/TransitionEffect";
 import CustomButton from "../components/ui/CustomButton";
 import CustomLink from "../components/ui/CustomLink";
 import Skills from "../components/page-ui/Skills";

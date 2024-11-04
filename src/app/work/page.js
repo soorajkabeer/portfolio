@@ -1,6 +1,6 @@
 import React from "react";
 import Experience from "../components/page-ui/Experience";
-import TransitionEffect from "../components/hoc/TransitionEffect";
+import TransitionEffect from "../components/HOC/TransitionEffect";
 import CustomButton from "../components/ui/CustomButton";
 
 export const metadata = {

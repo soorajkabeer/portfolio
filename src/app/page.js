@@ -6,7 +6,7 @@ import { LinkArrow } from "./components/ui/Icon";
 import CustomButton from "./components/ui/CustomButton";
 import { FlipLink } from "./components/page-ui/home/FlipLink";
 import "./titleColor.css";
-import TransitionEffect from "./components/hoc/TransitionEffect";
+import TransitionEffect from "./components/HOC/TransitionEffect";
 import useMediaQuery from "./components/hooks/useMediaQuery";
 
 export default function Home() {

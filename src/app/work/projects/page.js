@@ -1,4 +1,4 @@
-import TransitionEffect from "@/app/components/hoc/TransitionEffect";
+import TransitionEffect from "@/app/components/HOC/TransitionEffect";
 import Project from "@/app/components/page-ui/Project";
 import React from "react";
 

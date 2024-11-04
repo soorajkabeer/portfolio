@@ -1,5 +1,5 @@
 import React from "react";
-import TransitionEffect from "../components/hoc/TransitionEffect";
+import TransitionEffect from "../components/HOC/TransitionEffect";
 import SocialIcons from "@/app/components/ui/SocialIcons";
 import CustomHighlightLink from "@/app/components/ui/CustomHighlightLink";
 

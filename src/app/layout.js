@@ -2,7 +2,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import NavBar from "./components/navigation/NavBar";
 import Footer from "./components/navigation/Footer";
-import PageAnimatePresence from "./components/hoc/PageAnimatePresence";
+import PageAnimatePresence from "./components/HOC/PageAnimatePresence";
 import MousePointer from "./components/ui/MousePointer";
 
 const geistSans = localFont({
