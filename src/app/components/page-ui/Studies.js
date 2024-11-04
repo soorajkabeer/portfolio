@@ -2,7 +2,7 @@
 import React, { useRef } from "react";
 import { useScroll } from "framer-motion";
 import * as motion from "framer-motion/client";
-import LiIcon from "./LiIcon";
+import LiIcon from "../ui/LiIcon";
 
 const Details = ({ degree, stream, school, time, address, notes }) => {
   const ref = useRef(null);

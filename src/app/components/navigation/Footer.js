@@ -1,5 +1,5 @@
 import React from "react";
-import SocialIcons from "./SocialIcons";
+import SocialIcons from "../ui/SocialIcons";
 
 const Footer = () => {
   let year = new Date().getFullYear();

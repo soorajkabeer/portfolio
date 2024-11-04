@@ -1,9 +1,16 @@
 import React from "react";
-import CustomButton from "../components/CustomButton";
-import CustomLink from "../components/CustomLink";
-import Skills from "../components/Skills";
-import Studies from "../components/Studies";
+import CustomButton from "../components/ui/CustomButton";
+import CustomLink from "../components/ui/CustomLink";
+import Skills from "../components/page-ui/Skills";
+import Studies from "../components/page-ui/Studies";
 import TransitionEffect from "../components/hoc/TransitionEffect";
+
+export const metadata = {
+  title:
+    "About & Skills | Sooraj Kabeer - Creative Developer & eCommerce Expert",
+  description:
+    "Get to know Sooraj Kabeer, a creative developer with expertise in Shopify, React, and WordPress. Explore my journey, design philosophy, and the technical skills that drive my impactful digital solutions.",
+};
 
 export default function About() {
   return (

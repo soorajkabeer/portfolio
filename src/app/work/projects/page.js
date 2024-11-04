@@ -1,6 +1,12 @@
 import TransitionEffect from "@/app/components/hoc/TransitionEffect";
-import Project from "@/app/components/Project";
+import Project from "@/app/components/page-ui/Project";
 import React from "react";
+
+export const metadata = {
+  title: "Projects by Sooraj Kabeer | Front-End & eCommerce Solutions",
+  description:
+    "Browse a curated portfolio of projects by Sooraj Kabeer, showcasing front-end and Shopify expertise. View impactful projects in React, WordPress, and full-stack development.",
+};
 
 export default function Projects() {
   return (

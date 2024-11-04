@@ -1,10 +1,10 @@
 "use client";
 import Image from "next/image";
-import LineFace from "./components/LineFace";
+import LineFace from "./components/page-ui/home/LineFace";
 import Link from "next/link";
-import { LinkArrow } from "./components/Icon";
-import CustomButton from "./components/CustomButton";
-import { FlipLink } from "./components/FlipLink";
+import { LinkArrow } from "./components/ui/Icon";
+import CustomButton from "./components/ui/CustomButton";
+import { FlipLink } from "./components/page-ui/home/FlipLink";
 import "./titleColor.css";
 import TransitionEffect from "./components/hoc/TransitionEffect";
 import useMediaQuery from "./components/hooks/useMediaQuery";

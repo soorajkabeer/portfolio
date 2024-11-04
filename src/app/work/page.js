@@ -1,7 +1,13 @@
 import React from "react";
-import Experience from "../components/Experience";
+import Experience from "../components/page-ui/Experience";
 import TransitionEffect from "../components/hoc/TransitionEffect";
-import CustomButton from "../components/CustomButton";
+import CustomButton from "../components/ui/CustomButton";
+
+export const metadata = {
+  title: "Professional Experience | Sooraj Kabeer’s Developer Journey",
+  description:
+    "Explore the professional journey of Sooraj Kabeer, from Shopify and WordPress development to full-stack expertise. Discover a track record of delivering high-quality digital solutions.",
+};
 
 export default function Work() {
   return (

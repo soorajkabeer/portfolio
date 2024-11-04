@@ -2,8 +2,8 @@
 import React, { useRef } from "react";
 import { useScroll } from "framer-motion";
 import * as motion from "framer-motion/client";
-import LiIcon from "./LiIcon";
-import CustomHighlightLink from "./CustomHighlightLink";
+import LiIcon from "../ui/LiIcon";
+import CustomHighlightLink from "../ui/CustomHighlightLink";
 
 const Details = ({ position, company, companyLink, time, address, work }) => {
   const ref = useRef(null);

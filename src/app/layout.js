@@ -1,7 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
-import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
+import NavBar from "./components/navigation/NavBar";
+import Footer from "./components/navigation/Footer";
 import PageAnimatePresence from "./components/hoc/PageAnimatePresence";
 import MousePointer from "./components/ui/MousePointer";
 
@@ -17,9 +17,9 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Sooraj Kabeer's Portfolio",
+  title: "Sooraj Kabeer | Front-End Developer & Shopify Expert",
   description:
-    "Portfolio website build using React, Next.js , TailwindCSS and Framer motion.",
+    "Discover Sooraj Kabeer, a front-end developer and full-stack Shopify expert with over 7 years of experience in creating seamless digital solutions. Explore my work in React, Next.js, and custom Shopify development.",
 };
 
 export default function RootLayout({ children }) {

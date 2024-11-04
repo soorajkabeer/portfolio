@@ -1,7 +1,13 @@
 import React from "react";
-import SocialIcons from "../components/SocialIcons";
-import CustomHighlightLink from "../components/CustomHighlightLink";
+import SocialIcons from "@/app/components/ui/SocialIcons";
+import CustomHighlightLink from "@/app/components/ui/CustomHighlightLink";
 import TransitionEffect from "../components/hoc/TransitionEffect";
+
+export const metadata = {
+  title: "Contact Sooraj Kabeer | Let’s Build Something Great",
+  description:
+    "Get in touch with Sooraj Kabeer, an experienced front-end developer and Shopify expert. Reach out for collaborations or project inquiries and let’s create digital solutions together.",
+};
 
 export default function Contact() {
   return (

@@ -1,6 +1,12 @@
-import DesignerGallery from "@/app/components/DesignerGallery";
+import DesignerGallery from "@/app/components/page-ui/DesignerGallery";
 import TransitionEffect from "@/app/components/hoc/TransitionEffect";
 import React from "react";
+
+export const metadata = {
+  title: "Designer Profile | Sooraj Kabeer’s Creative Design Portfolio",
+  description:
+    "Explore the design side of Sooraj Kabeer, where minimalism meets functionality. View digital art, illustrations, and user-focused designs that enhance user experiences.",
+};
 
 export default function DesignerMe() {
   return (

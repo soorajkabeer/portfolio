@@ -2,8 +2,8 @@
 import React, { useState } from "react";
 import CustomNavLink from "./CustomNavLink";
 import CustomMobileNavLink from "./CustomMobileNavLink";
-import useThemeSwitcher from "./hooks/useThemeSwitcher";
-import { MoonIcon, SunIcon } from "./Icon";
+import useThemeSwitcher from "../hooks/useThemeSwitcher";
+import { MoonIcon, SunIcon } from "../ui/Icon";
 import HamburgerMenu from "./HamburgerMenu";
 
 const NavBar = () => {

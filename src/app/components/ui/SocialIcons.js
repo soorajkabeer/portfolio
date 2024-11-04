@@ -7,7 +7,7 @@ import {
   GithubIcon,
   InstagramIcon,
   LinkedinIcon,
-} from "./Icon";
+} from "../ui/Icon";
 
 const SocialIcons = ({
   border = false,
