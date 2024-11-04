@@ -46,8 +46,8 @@ module.exports = {
         },
       },
       fontFamily: {
-        primary: ['"Bebas Neue"', "sans-serif"],
-        body: ['"Red Hat Display"', "sans-serif"],
+        primary: ["var(--font-bebas)"],
+        body: ["var(--font-red-hat)"],
       },
       backgroundImage: {
         circularLight:

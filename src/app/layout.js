@@ -5,15 +5,15 @@ import Footer from "./components/navigation/Footer";
 import PageAnimatePresence from "./components/HOC/PageAnimatePresence";
 import MousePointer from "./components/ui/MousePointer";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
+const bebasNeue = localFont({
+  src: [{ path: "../../public//fonts/BebasNeue.ttf" }],
+  variable: "--font-bebas",
+  weight: "400",
 });
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+const redHatDisplay = localFont({
+  src: [{ path: "../../public/fonts/RedHatDisplay.ttf" }],
+  variable: "--font-red-hat",
+  weight: "100, 300, 400,600, 900",
 });
 
 export const metadata = {
@@ -24,9 +24,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="!scroll-smooth">
+    <html lang="en" className="!scroll-smooth ">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${bebasNeue.variable} ${redHatDisplay.variable} antialiased`}
       >
         <div className="w-full min-h-screen bg-theme-white dark:bg-theme-black grid grid-cols-1 justify-between">
           <div className="wave-bg">
