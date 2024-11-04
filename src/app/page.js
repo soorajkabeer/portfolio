@@ -41,20 +41,13 @@ export default function Home() {
 
                   {isTablet ? (
                     <div>
-                      <FlipLink
+                      <Link
                         href="#"
-                        className="flex flex-col"
-                        designClassPrefix="htcmy"
+                        className="flex flex-col gap-0 overflow-hidden whitespace-nowrap font-black uppercase"
                       >
-                        SOORAJ
-                      </FlipLink>
-                      <FlipLink
-                        href="#"
-                        className="flex flex-col"
-                        designClassPrefix="htcmg"
-                      >
-                        KABEER
-                      </FlipLink>
+                        <span className="text-theme-yellow">SOORAJ</span>
+                        <span className="text-theme-green">KABEER</span>
+                      </Link>
                     </div>
                   ) : (
                     <FlipLink
