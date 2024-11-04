@@ -45,8 +45,10 @@ export default function Home() {
                         href="#"
                         className="flex flex-col gap-0 overflow-hidden whitespace-nowrap font-black uppercase"
                       >
-                        <span className="text-theme-yellow">SOORAJ</span>
-                        <span className="text-theme-green">KABEER</span>
+                        <span className="text-theme-yellow h-fit">SOORAJ</span>
+                        <span className="text-theme-green h-fit -mt-5">
+                          KABEER
+                        </span>
                       </Link>
                     </div>
                   ) : (
