@@ -1,9 +1,9 @@
 import React from "react";
+import TransitionEffect from "../components/hoc/TransitionEffect";
 import CustomButton from "../components/ui/CustomButton";
 import CustomLink from "../components/ui/CustomLink";
 import Skills from "../components/page-ui/Skills";
 import Studies from "../components/page-ui/Studies";
-import TransitionEffect from "../components/hoc/TransitionEffect";
 
 export const metadata = {
   title:

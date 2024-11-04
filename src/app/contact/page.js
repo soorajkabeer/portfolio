@@ -1,7 +1,7 @@
 import React from "react";
+import TransitionEffect from "../components/hoc/TransitionEffect";
 import SocialIcons from "@/app/components/ui/SocialIcons";
 import CustomHighlightLink from "@/app/components/ui/CustomHighlightLink";
-import TransitionEffect from "../components/hoc/TransitionEffect";
 
 export const metadata = {
   title: "Contact Sooraj Kabeer | Let’s Build Something Great",
