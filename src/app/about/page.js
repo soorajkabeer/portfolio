@@ -25,7 +25,7 @@ export default function About() {
               shifted to web developement agency, but my creative spark goes
               back much further. Starting as a designer, I’ve always believed
               that minimalism tells a better story than intricate details.
-              Whether it's building a new site or capturing a moment in
+              Whether it&apos;s building a new site or capturing a moment in
               photography, I bring a creative touch to everything I do. When I’m
               not coding, you can find me taking care of my 4 year old son,
               illustrating, capturing street scenes through my lens, or learning
@@ -33,7 +33,7 @@ export default function About() {
               Next.js.
             </p>
             <p className="page-text">
-              Feel free to reach out to me, I'm open for possible
+              Feel free to reach out to me, I&apos;m open for possible
               collaburations, discussion and knowledge sharing. <br />
               You can mail me at&nbsp;
               <CustomLink

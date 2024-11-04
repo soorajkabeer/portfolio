@@ -67,7 +67,7 @@ const Experience = () => {
                   Liquid, JavaScript, React.js, and Node.js.
                 </li>
                 <li>
-                  Supervised Shopify projects, managing clients' stores and
+                  Supervised Shopify projects, managing clients&apos; stores and
                   ensuring high performance and user satisfaction.
                 </li>
                 <li>

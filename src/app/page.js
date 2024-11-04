@@ -28,7 +28,7 @@ export default function Home() {
                     HELLO
                   </p>
                   <p className="font-primary ml:text-6xl lg:text-5xl text-7xl text-theme-black dark:text-theme-white">
-                    I'M
+                    I&apos;M
                   </p>
                 </div>
                 <div className="flex justify-center ml:pr-5 items-center font-primary md:text-8xl ml:text-9xl lg:text-7xl text-9xl pl-6 tracking-normal relative group">

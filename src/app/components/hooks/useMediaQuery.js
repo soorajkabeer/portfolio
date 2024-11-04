@@ -5,24 +5,20 @@ const useMediaQuery = (width) => {
   const [targetReached, setTargetReached] = useState(false);
 
   const updateTarget = useCallback((e) => {
-    if (e.matches) {
-      setTargetReached(true);
-    } else {
-      setTargetReached(false);
-    }
+    setTargetReached(e.matches);
   }, []);
 
   useEffect(() => {
     const media = window.matchMedia(`(max-width: ${width}px)`);
-    media.addListener(updateTarget);
+    media.addEventListener("change", updateTarget);
 
-    // Check on mount (callback is not called until a change occurs)
+    // Initial check
     if (media.matches) {
       setTargetReached(true);
     }
 
-    return () => media.removeListener(updateTarget);
-  }, []);
+    return () => media.removeEventListener("change", updateTarget);
+  }, [width, updateTarget]); // Add `width` and `updateTarget` to the dependency array
 
   return targetReached;
 };
