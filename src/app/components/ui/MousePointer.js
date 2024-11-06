@@ -1,8 +1,10 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { useSpring, motion, useMotionValue } from "framer-motion";
+import useMediaQuery from "../hooks/useMediaQuery";
 
 const MousePointer = () => {
+  const isTablet = useMediaQuery(856);
   //using the useMotionValue hook to track cursor point
   const cursorX = useMotionValue(-100);
   const cursorY = useMotionValue(-100);
@@ -45,7 +47,7 @@ const MousePointer = () => {
   const cursorXSpring = useSpring(cursorX, springConfig);
   const cursorYSpring = useSpring(cursorY, springConfig);
 
-  return (
+  return isTablet ? null : (
     <motion.div
       className={`fixed left-0 top-0 ${
         isHovered ? "h-8 w-8 " : "h-4 w-4 "
