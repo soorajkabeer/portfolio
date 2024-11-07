@@ -18,8 +18,8 @@ export default function Notfound() {
             Page Not Found
           </h1>
           <p className="font-body ml:text-base lg:text-xl text-2xl text-theme-black dark:text-theme-white ml:pt-10 ml:w-[80%]">
-            Looks like you've reached a page that doesn&apost exist. No worries
-            – let&aposs get you back on track!
+            Looks like you&apos;ve reached a page that doesn&apos;t exist. No
+            worries – let&apo;ss get you back on track!
           </p>
           <div className="pt-10 sm:flex sm:flex-wrap">
             <CustomButton
