@@ -51,6 +51,7 @@ export default function About() {
               <CustomButton
                 href="/work/projects"
                 text="PROJECTS"
+                hoverClass="bg-theme-yellow"
                 className="page-link-button  sm:w-fit"
               />
               <CustomButton
