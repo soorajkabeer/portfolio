@@ -4,6 +4,7 @@ import NavBar from "./components/navigation/NavBar";
 import Footer from "./components/navigation/Footer";
 import PageAnimatePresence from "./components/HOC/PageAnimatePresence";
 import MousePointer from "./components/ui/MousePointer";
+import { Analytics } from "@vercel/analytics/react";
 
 const bebasNeue = localFont({
   src: [{ path: "../../public//fonts/BebasNeue.ttf" }],
@@ -38,6 +39,7 @@ export default function RootLayout({ children }) {
             </div>
           </div>
         </div>
+        <Analytics />
       </body>
     </html>
   );
