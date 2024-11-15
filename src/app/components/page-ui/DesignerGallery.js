@@ -64,7 +64,7 @@ const ImageSet = ({ images }) => {
 export default function DesignerGallery() {
   return (
     <div className="mt-14">
-      <div className="grid grid-cols-4 xs:grid-cols-1 ml:grid-cols-2 lg:grid-cols-3 gap-4 md:px-1 ml:px-4 px-8">
+      <div className="gallery grid grid-cols-4 xs:grid-cols-1 ml:grid-cols-2 lg:grid-cols-3 gap-4 md:px-1 ml:px-4 px-8">
         <ImageSet
           images={[images[0], images[1], images[6], images[3], images[4]]}
         />

@@ -27,6 +27,9 @@
   .theme-change * {
     @apply transition-colors ease-in-out;
   }
+  .gallery:hover img:not(:hover) {
+    @apply blur-[1px];
+  }
 }
 
 ::selection {
