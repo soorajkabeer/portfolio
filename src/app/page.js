@@ -107,7 +107,7 @@ export default function Home() {
                   </span>
                 </Link>
                 <CustomButton
-                  href="mailto:soorajkabeer@gmail.com"
+                  href="https://calendly.com/soorajkabeer-fl/30min"
                   target={"_blank"}
                   text="Let's Talk!"
                   className="page-link-button text-theme-black dark:text-theme-white"

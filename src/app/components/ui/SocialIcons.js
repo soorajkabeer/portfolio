@@ -7,6 +7,8 @@ import {
   GithubIcon,
   InstagramIcon,
   LinkedinIcon,
+  WhatsappIcon,
+  CalenderIcon,
 } from "../ui/Icon";
 
 const SocialIcons = ({
@@ -45,6 +47,19 @@ const SocialIcons = ({
         ></span>
       </Link>
       <Link
+        href="//calendly.com/soorajkabeer-fl/30min"
+        target={"_blank"}
+        title="Book Me on Calendly"
+        className={`p-2 h-full w-full flex justify-center items-center relative group ${
+          border ? "border-theme-black dark:border-theme-white border-2" : ""
+        } ${background}`}
+      >
+        <CalenderIcon className={`${iconClassName} z-20`} />
+        <span
+          className={`absolute ${hover} z-10 h-full left-0 bottom-0 group-hover:w-full transition-[width] ease duration-300 w-0`}
+        ></span>
+      </Link>
+      <Link
         href="//www.facebook.com/sooraj.kabeer"
         target={"_blank"}
         title="Facebook"
@@ -71,7 +86,7 @@ const SocialIcons = ({
         ></span>
       </Link>
       <Link
-        href="mailto:name@email.com"
+        href="mailto:soorajkabeer.fl@gmail.com"
         target={"_blank"}
         title="Email Me"
         className={`p-2 h-full w-full flex justify-center items-center relative group ${

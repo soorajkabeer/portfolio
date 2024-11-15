@@ -40,7 +40,7 @@ export default function Contact() {
               aftertext=" (Freelance Enquires)"
             />
             <SocialIcons
-              className="grid gap-4 grid-cols-6 items-center justify-center w-full max-w-96 mt-5"
+              className="grid gap-4 grid-cols-7 items-center justify-center w-full max-w-[26rem] mt-5"
               background="bg-theme-green dark:bg-theme-yellow"
               hover="bg-theme-yellow dark:bg-theme-green"
               iconClassName="fill-theme-white"
