@@ -3,6 +3,7 @@ import React, { useRef } from "react";
 import { useScroll } from "framer-motion";
 import * as motion from "framer-motion/client";
 import LiIcon from "../ui/LiIcon";
+import { STUDY } from "@/app/data/data";
 
 const Details = ({ degree, stream, school, time, address, notes }) => {
   const ref = useRef(null);
@@ -59,30 +60,19 @@ const Studies = () => {
           className="absolute left-9 top-0 w-[4px] h-full bg-theme-black dark:bg-theme-yellow origin-top"
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 text-left">
-          <Details
-            degree="Bachelor of Technology"
-            stream="Computer Science and Engineering"
-            school="University of Kerala, India"
-            time="05/2011 - 04/2015"
-            address="Arachan College of Engineering, Palamel Nooranad, Alappuzha"
-            notes=""
-          />
-          <Details
-            degree="AISSCE (12th)"
-            stream="Informatics Practices"
-            school="Central Board of Secondary Education, India"
-            time="03/2009 - 03/2011"
-            address="St.Mary's Resi. Center School, Alappuzha"
-            notes=""
-          />
-          <Details
-            degree="AISSE (10th)"
-            stream="Regular"
-            school="Central Board of Secondary Education, India"
-            time="03/2008 - 03/2009"
-            address="St.Mary's Resi. Center School, Alappuzha"
-            notes=""
-          />
+          {STUDY.map((data, i) => {
+            return (
+              <Details
+                key={i}
+                degree={data.cource}
+                stream={data.subject}
+                school={data.school}
+                time={data.time}
+                address={data.address}
+                note=""
+              />
+            );
+          })}
         </ul>
       </div>
     </>
