@@ -1,10 +1,22 @@
 export const WORK_EXPERIENCE = [
   {
+    role: "eCommerce Coordinator (Shopify)",
+    company: "Clinton Retail Ltd. ",
+    companyLink: "https://clinton-home.com/",
+    time: "12/2024 – Present",
+    location: "Remote (Antrim, NI)",
+    description: [
+      "Managing day to day working of the Shopify store and Warehouse.",
+      "Providing technical recommendations to optimize site performance and enhance user experience.",
+      "Managing administration tasks such as app integration and performing regular theme/app updates.",
+    ],
+  },
+  {
     role: "Freelance Technical Consultant (Shopify)",
     company: "Commerzilla LLC ",
     companyLink: "https://commerzilla.com/",
     time: "08/2024 – Present",
-    location: "Remote (Antrim, NI)",
+    location: "Belfast, UK",
     description: [
       "Fixing technical bugs and implementing theme customizations for Turmerry.",
       "Providing technical recommendations to optimize site performance and enhance user experience.",
