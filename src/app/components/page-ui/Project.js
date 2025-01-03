@@ -58,7 +58,7 @@ const Project = () => {
         <PinContainer title="Unni's Wellness" href="https://unniswellness.com/">
           <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
             <h3 className="max-w-xs !pb-2 !m-0 font-primary text-xl  dark:text-theme-white text-theme-green-dark">
-              Unni's Wellness
+              Unni&apos;s Wellness
             </h3>
             <div className="text-base !m-0 !p-0 font-normal">
               <span className="dark:text-theme-white text-theme-black/[.8] ">
