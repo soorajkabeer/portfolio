@@ -4,7 +4,7 @@ export const WORK_EXPERIENCE = [
     company: "Clinton Retail Ltd. ",
     companyLink: "https://clinton-home.com/",
     time: "12/2024 – Present",
-    location: "Remote (Antrim, NI)",
+    location: "Belfast, UK",
     description: [
       "Managing day to day working of the Shopify store and Warehouse.",
       "Providing technical recommendations to optimize site performance and enhance user experience.",
@@ -16,7 +16,7 @@ export const WORK_EXPERIENCE = [
     company: "Commerzilla LLC ",
     companyLink: "https://commerzilla.com/",
     time: "08/2024 – Present",
-    location: "Belfast, UK",
+    location: "Remote (Antrim, UK)",
     description: [
       "Fixing technical bugs and implementing theme customizations for Turmerry.",
       "Providing technical recommendations to optimize site performance and enhance user experience.",
