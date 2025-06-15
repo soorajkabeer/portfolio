@@ -96,7 +96,6 @@ export default function DesignerGallery() {
             images[15],
             images[16],
             images[17],
-            images[24],
           ]}
         />
         <ImageSet
