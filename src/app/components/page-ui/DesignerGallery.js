@@ -69,23 +69,45 @@ export default function DesignerGallery() {
     <div className="mt-14">
       <div className="gallery grid grid-cols-4 xs:grid-cols-1 ml:grid-cols-2 lg:grid-cols-3 gap-4 md:px-1 ml:px-4 px-8">
         <ImageSet
-          images={[images[0], images[1], images[6], images[3], images[4]]}
-        />
-        <ImageSet
-          images={[images[5], images[2], images[7], images[8], images[9]]}
+          images={[
+            images[0],
+            images[1],
+            images[6],
+            images[3],
+            images[4],
+            images[5],
+          ]}
         />
         <ImageSet
           images={[
+            images[2],
+            images[7],
+            images[8],
+            images[9],
             images[10],
             images[11],
+          ]}
+        />
+        <ImageSet
+          images={[
             images[12],
             images[13],
             images[14],
             images[15],
+            images[16],
+            images[17],
+            images[24],
           ]}
         />
         <ImageSet
-          images={[images[16], images[17], images[18], images[19], images[20]]}
+          images={[
+            images[18],
+            images[19],
+            images[20],
+            images[21],
+            images[22],
+            images[23],
+          ]}
         />
       </div>
     </div>
