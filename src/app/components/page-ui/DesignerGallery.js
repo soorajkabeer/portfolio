@@ -3,10 +3,12 @@ import Image from "next/image";
 import { useTransform, motion } from "framer-motion";
 
 const images = [
+  ["23.jpg", "Unni's Wellness Logo"],
   ["1.jpg", "Hikerpedia Logo mockup on a t-shirt"],
   ["2.jpg", "UX design done for a BirdCare App"],
   ["3.jpg", "Sayanora Fashions logo on a Shirt"],
   ["4.jpg", "Hijab USA logo"],
+  ["24.jpg", "Unni's Wellness Visiting Card"],
   ["5.jpg", "Sooraj Kabeer Photography logo mockup"],
   ["6.jpg", "Wayand Wonders logo mockup"],
   ["7.jpg", "Aquazilla Homepage Design"],
@@ -24,6 +26,7 @@ const images = [
   ["19.jpg", "Jafrum neon light"],
   ["20.jpg", "SeaFood Export logo on the wall of a corporate building"],
   ["21.jpg", "Aquazilla logo in neon lighting"],
+  ["22.jpg", "Unni's Wellness Flyer"],
 ];
 const ImageSet = ({ images }) => {
   return (
