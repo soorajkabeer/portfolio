@@ -1,9 +1,20 @@
 export const WORK_EXPERIENCE = [
   {
+    role: "eCommerce Developer",
+    company: "Bathshack.com",
+    companyLink: "https://www.bathshack.com/",
+    time: "04/2025 – Present",
+    location: "Hybrid, Antrim, UK",
+    description: [
+      "Developing eCommerce projects across Magento, WordPress, and Shopify platforms.",
+      "Leading development and execution of Shopify migration initiatives.",
+    ],
+  },
+  {
     role: "eCommerce Coordinator (Shopify)",
     company: "Clinton Retail Ltd. ",
     companyLink: "https://clinton-home.com/",
-    time: "12/2024 – Present",
+    time: "12/2024 – 04/2025",
     location: "Belfast, UK",
     description: [
       "Managing day to day working of the Shopify store and Warehouse.",
