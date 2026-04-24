@@ -22,22 +22,22 @@ export default function Contact() {
               or just sharing ideas. Whether you need a full-scale web solution
               or want to explore creative concepts, I’d love to hear from you!
             </p>
-            <CustomHighlightLink
+            {/* <CustomHighlightLink
               href="mailto:soorajkabeer@gmail.com"
               text="soorajkabeer@gmail.com"
               className="page-big-link dark:text-theme-white"
               underlineColor="bg-theme-green dark:bg-theme-yellow"
               hoverEffectColor="bg-theme-yellow dark:bg-theme-green"
               position="bottom-3 left-0"
-            />
+            /> */}
             <CustomHighlightLink
-              href="mailto:soorajkabeer.fl@gmail.com"
-              text="soorajkabeer.fl@gmail.com"
+              href="mailto:contact@soorajkabeer.com"
+              text="contact@soorajkabeer.com"
               className="page-big-link dark:text-theme-white sm:flex sm:flex-wrap"
               underlineColor="bg-theme-green dark:bg-theme-yellow"
               hoverEffectColor="bg-theme-yellow dark:bg-theme-green"
               position="bottom-3 left-0"
-              aftertext=" (Freelance Enquires)"
+              aftertext=""
             />
             <SocialIcons
               className="grid gap-4 grid-cols-7 items-center justify-center w-full max-w-[26rem] mt-5"

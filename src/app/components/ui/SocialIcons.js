@@ -86,7 +86,7 @@ const SocialIcons = ({
         ></span>
       </Link>
       <Link
-        href="mailto:soorajkabeer.fl@gmail.com"
+        href="mailto:contact@soorajkabeer.com"
         target={"_blank"}
         title="Email Me"
         className={`p-2 h-full w-full flex justify-center items-center relative group ${
