@@ -2,7 +2,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import NavBar from "./components/navigation/NavBar";
 import Footer from "./components/navigation/Footer";
-import PageAnimatePresence from "./components/HOC/PageAnimatePresence";
+import ClientPageAnimatePresence from "./components/HOC/ClientPageAnimatePresence";
 import MousePointer from "./components/ui/MousePointer";
 import { Analytics } from "@vercel/analytics/react";
 
@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
           <div className="wave-bg">
             <div className="theme-change h-full flex flex-col justify-between">
               <NavBar />
-              <PageAnimatePresence>{children}</PageAnimatePresence>
+              <ClientPageAnimatePresence>{children}</ClientPageAnimatePresence>
               <Footer />
               <MousePointer />
             </div>
