@@ -8,16 +8,16 @@ import MousePointer from "../ui/MousePointer";
 const ClientLayout = ({ children }) => {
   const pathname = usePathname();
   return (
-    <div className="w-full min-h-screen bg-theme-white dark:bg-theme-black grid grid-cols-1 justify-between">
-      <div className="wave-bg">
-        <div className="theme-change h-full flex flex-col justify-between">
+    <div className="w-full min-h-screen bg-theme-white dark:bg-theme-black flex flex-col">
+      <div className="wave-bg flex flex-col flex-1">
+        <div className="theme-change flex flex-col flex-1">
           <NavBar />
           <motion.div
             key={pathname}
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.3, ease: "easeOut" }}
-            style={{ minHeight: "100%" }}
+            className="flex-1"
           >
             {children}
           </motion.div>
