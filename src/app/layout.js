@@ -1,9 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
-import NavBar from "./components/navigation/NavBar";
-import Footer from "./components/navigation/Footer";
-import ClientPageAnimatePresence from "./components/HOC/ClientPageAnimatePresence";
-import MousePointer from "./components/ui/MousePointer";
+import ClientLayout from "./components/HOC/ClientLayout";
 import { Analytics } from "@vercel/analytics/react";
 
 const bebasNeue = localFont({
@@ -25,20 +22,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="!scroll-smooth ">
+    <html lang="en" className="!scroll-smooth">
       <body
         className={`${bebasNeue.variable} ${redHatDisplay.variable} antialiased`}
       >
-        <div className="w-full min-h-screen bg-theme-white dark:bg-theme-black grid grid-cols-1 justify-between">
-          <div className="wave-bg">
-            <div className="theme-change h-full flex flex-col justify-between">
-              <NavBar />
-              <ClientPageAnimatePresence>{children}</ClientPageAnimatePresence>
-              <Footer />
-              <MousePointer />
-            </div>
-          </div>
-        </div>
+        <ClientLayout>{children}</ClientLayout>
         <Analytics />
       </body>
     </html>
