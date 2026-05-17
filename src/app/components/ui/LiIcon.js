@@ -1,5 +1,5 @@
 import React from "react";
-import * as motion from "framer-motion/client";
+import { motion } from "framer-motion";
 import { useScroll } from "framer-motion";
 
 const LiIcon = ({ referrence }) => {

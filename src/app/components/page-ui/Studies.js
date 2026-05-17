@@ -1,7 +1,7 @@
 "use client";
 import React, { useRef } from "react";
 import { useScroll } from "framer-motion";
-import * as motion from "framer-motion/client";
+import { motion } from "framer-motion";
 import LiIcon from "../ui/LiIcon";
 import { STUDY } from "@/app/data/data";
 

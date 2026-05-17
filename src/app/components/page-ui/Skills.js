@@ -1,5 +1,5 @@
 import React from "react";
-import * as motion from "framer-motion/client";
+import { motion } from "framer-motion";
 import { easeInOut } from "framer-motion";
 
 const Skill = ({ name, x, y, className = "text-2xl" }) => {

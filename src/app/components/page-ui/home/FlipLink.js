@@ -1,5 +1,5 @@
 import React from "react";
-import * as motion from "framer-motion/client";
+import { motion } from "framer-motion";
 
 const DURATION = 0.25;
 const STAGGER = 0.025;
