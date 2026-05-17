@@ -1,6 +1,6 @@
 import React from "react";
 import CustomMobileNavLink from "./CustomMobileNavLink";
-import * as motion from "framer-motion/client";
+import { motion } from "framer-motion";
 
 const HamburgerMenu = ({ isOpen, setIsOpen }) => {
   const handleClick = () => {
